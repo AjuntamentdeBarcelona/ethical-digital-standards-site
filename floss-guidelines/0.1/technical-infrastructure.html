@@ -139,7 +139,7 @@ In this chapter we recommend some common tools and practices for using them in t
 </div>
 </div>
 <div class="sect1">
-<h2 id="websites-associated-with-the-project"><a class="anchor" href="#websites-associated-with-the-project"></a>Websites associated with the project</h2>
+<h2 id="websites-associated-with-the-project"><a class="anchor" href="#websites-associated-with-the-project"></a>1. Websites associated with the project</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A typical software project might have two websites:</p>
@@ -214,7 +214,7 @@ This could either be in the Community section or on the home page, with a link s
 </div>
 </div>
 <div class="sect1">
-<h2 id="code-repository-and-version-control"><a class="anchor" href="#code-repository-and-version-control"></a>Code repository and version control</h2>
+<h2 id="code-repository-and-version-control"><a class="anchor" href="#code-repository-and-version-control"></a>2. Code repository and version control</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A key element of the project development website is a code repository (public and under version control) which serves as a base for centralising modifications that form part of each new product release.</p>
@@ -239,20 +239,20 @@ The basic vocabulary and concepts for understanding how it works can be found at
 <p>It launches the message that the project is open to collaboration.</p>
 </div>
 <div class="paragraph">
-<p>It offers good integration with the rest of a product’s technical and social infrastructure: incident management, ongoing integration, development communication channels, etc.</p>
+<p>It offers good integration with the rest of a product’s technical and social infrastructure: issue managing, continuous integration, development communication channels, etc.</p>
 </div>
 <div class="paragraph">
 <p>It also enables (part of) a product’s documentation to be saved and displayed, which could be a wiki.
 The presentation of the information is sufficiently user-friendly for us to put off building a website for project users and participants in general.</p>
 </div>
 <div class="paragraph">
-<p>It is the platform most widely used by open code projects and provides a lot of exposure.</p>
+<p>It is the platform most widely used by FLOSS projects and provides a lot of exposure.</p>
 </div>
 <div class="paragraph">
 <p>Any alternative has to offer similar guarantees with regard to durability and sustainability.</p>
 </div>
 <div class="paragraph">
-<p><strong>Drawback</strong>: GitHub is not 100% open code.</p>
+<p><strong>Drawback</strong>: GitHub is not free software.</p>
 </div>
 <div class="paragraph">
 <p>Although it is a free service for a wide range of possible uses, not all the infrastructure code behind GitHub is open and ultimately that means being dependent on a company whose future development we cannot predict.
@@ -286,7 +286,7 @@ For example: <a href="https://github.com/AjuntamentdeBarcelona/decidim-barcelona
  <br>
   links outgoing: None
  <br>
-  There could be reasons that make it advisable to have the main repository (the one linked to incident management) on sites such as:
+  There could be reasons that make it advisable to have the main repository (the one linked to the issue manager) on sites such as:
  <br>
   The GitHub space of another organisation.
  <br>
@@ -306,11 +306,11 @@ For example: <a href="https://github.com/AjuntamentdeBarcelona/decidim-barcelona
 It is currently the most widely used tool which all developers are familiar with and it offers some good practices for open project management which would be much more confusing with older systems (such as CSV or Subversion).
 If certain procedures have to be performed on another tool, for example, Subversion, the solution is to do the development in open on Git, and keep a Subversion mirror automated using the command <code>git <code>svn</code> ``dcommit</code>, as explained, for example, at <a href="http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/" class="bare">http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/</a>.
  <br>
-  Either way, there has to be an up-to-date replica of the main repository in the City Council GitHub space, to show all the contributions made to open code projects.
+  Either way, there has to be an up-to-date replica of the main repository in the City Council GitHub space, to show all the contributions made to FLOSS projects.
  <br>
   The <code>README</code> file content (and markup) in the City Council GitHub space, the GitHub.io space and the other sites with a source code link will indicate which is (or are) the main repository (repositories) where development is carried out.
  <br>
-  Whichever they are, both the incident management tool and the ongoing integration system must be public and capable of being used by everyone, without paying subscriptions for any service.
+  Whichever they are, both the issue managing tool and the continuous integration system must be public and capable of being used by everyone, without paying subscriptions for any service.
  <br>
   All the project source code has to be downloadable by anyone at any time.
 GitHub makes that easy by providing buttons for downloading a <code>zip</code> file or showing the necessary commands for cloning the repository using Git.
@@ -442,7 +442,7 @@ Any document referring to the product’s design and architecture
 +
 All the comments on the commits in the repository.
 +
-All the entries in the incident management tool and the discussion threads that flow from them
+All the entries in the issue manager and the discussion threads that flow from them
 +
 All the discussion threads that accompany each pull request
 +
@@ -456,7 +456,7 @@ The <code>CONTRIBUTORS</code> file
 +
 The <code>LICENSE</code> file
 +
-If the incident management tool lets anyone enter incidents and one is entered in another language, someone in the team has to be responsible for getting it translated or asking the author to translate it.</p>
+If the issue manager lets anyone enter issues and one is entered in another language, someone in the team has to be responsible for getting it translated or asking the author to translate it.</p>
 </dd>
 <dt class="hdlist1">Measure: Don’t upload binary files or build process files (with exceptions) M_488</dt>
 <dd>
@@ -512,10 +512,10 @@ links outgoing: None
 </div>
 </div>
 <div class="sect1">
-<h2 id="incident-management-tool"><a class="anchor" href="#incident-management-tool"></a>Incident management tool</h2>
+<h2 id="issue-manager"><a class="anchor" href="#issue-manager"></a>3. Issue manager</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>One tool all open code projects need is an incident manager or bug tracker.
+<p>One tool all FLOSS projects need is an issue manager or bug tracker.
 At the City Council we assign it the following functions:</p>
 </div>
 <div class="paragraph">
@@ -542,7 +542,7 @@ The bug tracker could even be open to feature requests and the GitHub space coul
 </div>
 <div class="dlist">
 <dl>
-<dt class="hdlist1">Measure: Link the main repository to the GitHub issue tracker M_35A</dt>
+<dt class="hdlist1">Measure: Link the main repository to the GitHub issue manager M_35A</dt>
 <dd>
 <p>tags: Day1 Adaptation Plugin NewProduct Publication
 +
@@ -552,9 +552,9 @@ links outgoing: None
 +
 Once again it is the default option, in this case because of its automatic link with the GitHub repository and because it meets our accessibility and transparency requirements.
 +
-Some basic incident categories will have to be established at the start that can be modified later, depending on the needs of each project: <code>Bug</code>, <code>Request</code>, etc.</p>
+Some basic issue categories will have to be established at the start that can be modified later, depending on the needs of each project: <code>Bug</code>, <code>Request</code>, etc.</p>
 </dd>
-<dt class="hdlist1">Alternative: Link the main repository to a public incident management tool A_D4F</dt>
+<dt class="hdlist1">Alternative: Link the main repository to a public issue manager A_D4F</dt>
 <dd>
 <p>tags: Day1 Adaptation Plugin NewProduct Publication
 +
@@ -568,15 +568,15 @@ It has to be public, in the sense that:
 +
 Everybody has to be able to register as a system user without paying a subscription, and thus take part in development.
 +
-Everybody has to be able to see the incidents and follow them, without having to register as a user.
+Everybody has to be able to see the issues and follow them, without having to register as a user.
 +
-The GitHub issue tracker meets both conditions.
+The GitHub issue manager meets both conditions.
 +
 It must be linked from the code repository <code>README</code> file.
 +
-If the intention is for the incident management tool to be part of the City Council’s own infrastructure, it has to be one of the following free tools: Gitlab, Redmine, Trac.</p>
+If the intention is for the issue manager to be part of the City Council’s own infrastructure, it has to be one of the following free tools: Gitlab, Redmine, Trac.</p>
 </dd>
-<dt class="hdlist1">Recommendation: Use the incident management tool for tasks, releases and new features R_20E</dt>
+<dt class="hdlist1">Recommendation: Use the issue manager for tasks, releases and new features R_20E</dt>
 <dd>
 <p>tags: Integration Adaptation Plugin NewProduct Publication
 +
@@ -584,9 +584,9 @@ links incoming: None
 +
 links outgoing: None
 +
-Integrating the repository with GitHub’s issue tracker means that together they make a good tool for collaborating on any code-related issue, not just fixing bugs.</p>
+Integrating the repository with GitHub’s issue manager means that together they make a good tool for collaborating on any code-related issue, not just fixing bugs.</p>
 </dd>
-<dt class="hdlist1">Measure: Draw up and maintain an incident management policy M_0E7</dt>
+<dt class="hdlist1">Measure: Draw up and maintain an issuemanagement policy M_0E7</dt>
 <dd>
 <p>  tags: Procurement Plugin NewProduct Publication
  <br>
@@ -596,14 +596,14 @@ Integrating the repository with GitHub’s issue tracker means that together the
  <br>
   It must specify:
  <br>
-  Incident type (defects, tasks, milestones, etc.).
+  Issue type (defects, tasks, milestones, etc.).
  <br>
   Stages for those that arise.
  <br>
   This task can be given to the company awarded the contract.
 It it does not have one of its own, IMI will have to provide it with one.</p>
 </dd>
-<dt class="hdlist1">Recommendation: Give everyone permission to report incidents, even anonymously R_7A9</dt>
+<dt class="hdlist1">Recommendation: Give everyone permission to report issues, even anonymously R_7A9</dt>
 <dd>
 <p>  tags: Integration Adaptation Plugin NewProduct Publication
  <br>
@@ -611,12 +611,12 @@ It it does not have one of its own, IMI will have to provide it with one.</p>
  <br>
   links outgoing: None
  <br>
-  Configure the incident management tool so it will not be necessary to create an account to report defects or anything else, in order to facilitate as many contributions as possible.
+  Configure the issue manager so it will not be necessary to create an account to report defects or anything else, in order to facilitate as many contributions as possible.
 Activate the necessary anti-spam measures (e.g. captchas)
  <br>
   It is always possible to keep an eye on someone who gives us problems or rethink this policy if it doesn’t work on a project.</p>
 </dd>
-<dt class="hdlist1">Recommendation: Put someone in charge of filtering incidents as they arrive R_A03</dt>
+<dt class="hdlist1">Recommendation: Put someone in charge of filtering issues as they arrive R_A03</dt>
 <dd>
 <p>tags: Procurement Plugin NewProduct Publication
 +
@@ -647,11 +647,11 @@ Successful bidders should be contractually obliged to properly notify us of the 
 </div>
 </div>
 <div class="sect1">
-<h2 id="integration-infrastructure-and-testing"><a class="anchor" href="#integration-infrastructure-and-testing"></a>Integration infrastructure and testing</h2>
+<h2 id="integration-infrastructure-and-testing"><a class="anchor" href="#integration-infrastructure-and-testing"></a>4. Integration infrastructure and testing</h2>
 <div class="sectionbody">
 <div class="dlist">
 <dl>
-<dt class="hdlist1">Recommendation: Link the main repository to an ongoing open code integration system R_368</dt>
+<dt class="hdlist1">Recommendation: Link the main repository to a free software continuous integration system R_368</dt>
 <dd>
 <p>tags: Day1 Adaptation Plugin NewProduct Publication
 +
@@ -672,10 +672,10 @@ Travis CI</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="internal-and-external-communication-channels"><a class="anchor" href="#internal-and-external-communication-channels"></a>Internal and external communication channels</h2>
+<h2 id="internal-and-external-communication-channels"><a class="anchor" href="#internal-and-external-communication-channels"></a>5. Internal and external communication channels</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The first lines of communication between developers are the repository commit messages and the incident management threads.
+<p>The first lines of communication between developers are the repository commit messages and the issue manager threads.
 Many technical decisions are taken in these threads but the discussions that take place in them should always be highly focused and strictly technical.
 When the area under discussion broadens out, it is necessary to resort to other channels.</p>
 </div>
