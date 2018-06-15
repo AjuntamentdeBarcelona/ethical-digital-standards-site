@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open development :: Agile Digital Transformation Guides</title>
+    <link rel="canonical" href="https://gmarpons.github.io/adt-guides/floss-guidelines/0.1/open-development.html">
+    <meta name="generator" content="Antora 1.0.1">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://gmarpons.github.io/adt-guides">Agile Digital Transformation Guides</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="main-wrapper">
+<div class="navigation-container" data-component="floss-guidelines" data-version="0.1">
+  <aside class="navigation" role="navigation">
+    <div class="panels">
+<div class="navigation-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="introduction.html">FLOSS Management Guidelines</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="introduction.html">Introduction</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="document-organization.html">Document organization</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="open-development.html">Open development</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="technical-infrastructure.html">Technical infrastructure</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="component-management.html">Component management</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="open-communities.html">Open communities</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="legal-aspects.html">Legal aspects</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="documentation.html">Documentation</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="navigation-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">FLOSS Management Guidelines</span>
+    <span class="version">0.1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">FLOSS Management Guidelines</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="introduction.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+  <main class="main" role="main">
+<div class="toolbar" role="navigation">
+  <button class="navigation-toggle"></button>
+  <a href="introduction.html" class="home-link"></a>
+<nav class="crumbs" role="navigation" aria-label="breadcrumbs">
+  <ul>
+    <li class="crumb"><a href="introduction.html">FLOSS Management Guidelines</a></li>
+    <li class="crumb"><a href="open-development.html">Open development</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/gmarpons/floss-guide-bcn-en/edit/master/modules/ROOT/pages/open-development.adoc">Edit this Page</a></div>
+</div>
+<article class="doc">
+<h1>Open development</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>In free or open source software projects there is a culture of “working in the open”, as this facilitates the conditions that make them technically and financially sustainable.
+Increasing the flow of resources to projects is in the interests of all projects, and it involves:</p>
+</div>
+<div class="paragraph">
+<p>Increasing the number of people and institutions that use the software.</p>
+</div>
+<div class="paragraph">
+<p>Encouraging any user, whether a person or an organisation, to participate in the project in any way they can, by contributing to the source code, testing, corrections, funding, dissemination, translations and so on.</p>
+</div>
+<div class="paragraph">
+<p>Outside this model, which is based on fostering collaboration, it is very difficult to reap the potential benefits offered by open source software.
+There are two key elements in all this:</p>
+</div>
+<div class="paragraph">
+<p><strong>Transparency</strong>.
+There is no need for this to restrict the code.
+If there is to be real collaboration, transparency has to extend to all the communication infrastructure, knowledge and decision-making involved in the project.</p>
+</div>
+<div class="paragraph">
+<p><strong>Dissemination of knowledge</strong>.
+In contrast to other, classical business models, the interest here lies in knowledge of the product, even the most technical details, being distributed as widely as possible.
+That reduces the technological risk and the City Council’s dependency on specific companies.</p>
+</div>
+<div class="paragraph">
+<p>Working in the open means the following elements should be publicly accessible in open formats (for reading) to anyone who is interested, so they do not have to use private tools anonymously (without having to register with any web service or much less having to hire pay services):</p>
+</div>
+<div class="paragraph">
+<p>The code repository.</p>
+</div>
+<div class="paragraph">
+<p>The incident management tool or bug tracker (where, among other things, defects or bugs are notified and managed).</p>
+</div>
+<div class="paragraph">
+<p>Design documents</p>
+</div>
+<div class="paragraph">
+<p>User documentation.</p>
+</div>
+<div class="paragraph">
+<p>The communication channels through which the technical team make technical decisions.</p>
+</div>
+<div class="paragraph">
+<p>Working in the open does NOT (necessarily) mean that:</p>
+</div>
+<div class="paragraph">
+<p>Project outsiders have write access to the repository (they are free to copy the code into their own repository and modify their copy).</p>
+</div>
+<div class="paragraph">
+<p>Everyone has permission to write notifications of defects and intervene in the incident management system.
+Each project can choose its own QA policy.</p>
+</div>
+<div class="paragraph">
+<p>The project team has to read and respond to all defect notifications (if they are open to writing) and questions via the open communication channels.</p>
+</div>
+<div class="paragraph">
+<p>The project team has to check all the suggestions and contributions (pull requests and patches) they might receive, if it is felt the resources are better invested in another task.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="work-in-the-open-from-day-one"><a class="anchor" href="#work-in-the-open-from-day-one"></a>Work in the open from day one</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A really important aspect to bear in mind is the longer you work in a closed project, the more difficult it will be to open it up later on.
+If you wait too long, maybe some measures will never be implemented, because their cost would be prohibitive.
+The reasons for that can be summed up as follows:</p>
+</div>
+<div class="paragraph">
+<p>Having communication channels open from day 1 does not mean “strangers” have to distract us from day 1.
+In this Guide we explain how to make it clear what our commits are, what we can modulate at each stage.</p>
+</div>
+<div class="paragraph">
+<p>It is impossible to make up for the incentives that developers have for doing things in a “quick and ugly” way with future threats of opening up.
+If we do not work in the open from the start, we will inevitably incur a <a href="https://en.wikipedia.org/wiki/Technical_debt">technological debt</a> with the intention of fixing things in a future that never comes.</p>
+</div>
+<div class="paragraph">
+<p>When the day for “opening the code” arrives, you suddenly find you have:</p>
+</div>
+<div class="paragraph">
+<p>Specific user settings and passwords in the repository.</p>
+</div>
+<div class="paragraph">
+<p>Notifications of defects that contain sensitive information that cannot be made public.</p>
+</div>
+<div class="paragraph">
+<p>Correspondence between developers which mixes useful technical information with personal opinions that were not expressed so everybody could read them.</p>
+</div>
+<div class="paragraph">
+<p>Dependence on software components that cannot be used in an open code project, or which generate licence problems.</p>
+</div>
+<div class="paragraph">
+<p>Documentation or build procedures written with proprietary tools that do not allow them to be published.</p>
+</div>
+<div class="paragraph">
+<p>(And a never-ending list of other things).</p>
+</div>
+<div class="paragraph">
+<p>Opening up the code means having to take difficult decisions, which would not have arisen if it had been open from the start (wasting time cleaning up the defect log vs creating a new one and losing the entire log, etc.).</p>
+</div>
+<div class="paragraph">
+<p>It creates a big “exposure event” which poses a high risk for the project, because lots of changes have to be made all at once.
+The whole project and its potential vulnerabilities are also exposed in one go (and many eyes will be looking, not always with good intentions).
+This creates uncertainty and concern before the event.
+After, it could cause an avalanche of incidents that in normal conditions would have been staggered.</p>
+</div>
+<div class="paragraph">
+<p>All these points are amply justified in sections <a href="https://producingoss.com/en/setting-tone.html#be-open-from-day-one">Be Open From Day One</a> andhttps://producingoss.com/en/governments-and-open-source.html#starting-open-for-govs[Being Open Source From Day One is Especially Important for Government Projects] from the book <a href="https://producingoss.com/en/index.html">Producing Open Source Software</a>, which the people in charge of each project would do well to read.</p>
+</div>
+<div class="paragraph">
+<p>The measures and recommendations that should be borne in mind with regard to opening up are spread throughout the Guide, tagged as <code>Day1</code>.
+They are all listed in the following table:</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 10%;">
+<col style="width: 40%;">
+<col style="width: 10%;">
+<col style="width: 40%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">ID</th>
+<th class="tableblock halign-left valign-top">Title</th>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Tags</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Link the main repository to a public incident management system</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alternative</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Adaptation<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upload a <code>README</code> file to the main repository</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Measure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Publish brief Developer Guidelines</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Measure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Link the main repository to an ongoing open code integration system.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recommendation</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Adaptation<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upload the licence text to the main repository</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Measure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Create the main repository in the City Council GitHub space</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Measure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Adaptation<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Use the GitHub repository as the project development website</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Measure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Link the main repository to a public incident management platform</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Measure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Adaptation<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reserve a permanent project URL and always use it to refer to the project</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recommendation</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Integration<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#M_7EA">M_7EA</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Implement and document build and installation procedures with widely used free tools</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Measure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Day1<em>;</em> Plugin<em>;</em> NewProduct<em>;</em> Publication</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upload a file with installation instructions to the main repository</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Measure</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="procurement-for-open-development"><a class="anchor" href="#procurement-for-open-development"></a>Procurement for open development</h2>
+<div class="sectionbody">
+<div id="M_F60" class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Award the contract to companies with experience in open development M_F60</dt>
+<dd>
+<p>  tags: Procurement Adaptation Plugin NewProduct
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: <a href="#A_37A"><em>A_37A</em></a> <a href="#A_8D9"><em>A_8D9</em></a>
+ <br>
+  Establish the need for open source code experience as a condition of technical solvency.
+ <br>
+  However many conditions are included in the contract, if the company awarded it has no experience of participating in open source projects, it is most likely that the product will end up not being completely open.
+In most cases, there is no reason why that should be the result of bad faith but a lack of knowledge.</p>
+</dd>
+</dl>
+</div>
+<div id="A_37A" class="dlist">
+<dl>
+<dt class="hdlist1">Alternative: Enter into a subsidiary independent validation and verification (IV&amp;V) contract A_37A</dt>
+<dd>
+<p>  tags: Procurement Adaptation Plugin NewProduct
+ <br>
+  links incoming: <a href="#M_F60"><em>M_F60</em></a>
+ <br>
+  links outgoing: None
+ <br>
+  Hire a company that does have proven experience of sustained participation in open source projects.
+This company will act as an external project collaborator and carry out code checks and process analyses, reporting directly to IMI.
+ <br>
+  In an open source project, what is being contracted is not just the code but also the process.
+ <br>
+  Add this service to the project technical office.</p>
+</dd>
+</dl>
+</div>
+<div id="A_8D9" class="dlist">
+<dl>
+<dt class="hdlist1">Alternative: Include experience in open source projects as an award criterion A_8D9</dt>
+<dd>
+<p>tags: Procurement Adaptation Plugin NewProduct
++
+links incoming: <a href="#M_F60"><em>M_F60</em></a>
++
+links outgoing: None
++
+Award a set number of points to companies that can certify experience in projects that have produced software working in open code.</p>
+</dd>
+<dt class="hdlist1">Measure: Ask tenderers to provide evidence of participants' experience in open source projects M_87A</dt>
+<dd>
+<p>tags: Procurement Adaptation Plugin NewProduct
++
+links incoming: None
++
+links outgoing: None
++
+They must do this by providing references for their individual participation in repositories and open forums (StackOverflow, etc.), from projects they have taken part in.
++
+This can be done as a technical solvency criterion or a performance criterion,</p>
+</dd>
+<dt class="hdlist1">Recommendation: Split the project into groups of features that can be tendered in various lots R_F10</dt>
+<dd>
+<p>  tags: Procurement NewProduct
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  Either by contracting by lots or by outsourcing specific tasks such as checking the code and its rollout, as established by the <a href="#fer-contracte-validacio-independent">Alternative: Enter into a subsidiary independent validation and verification (IV&amp;V) contract</a>.
+ <br>
+  Besides being a policy in line with the Guide to Technological Procurement, disseminating knowledge of the product is very favourable to the interests of the project.
+The <em>reserves of distributed knowledge</em> are one of the main strengths of open source projects.
+ <br>
+  It also helps a great deal to ensure open work processes are established from the outset.</p>
+</dd>
+<dt class="hdlist1">Recommendation: Reduce the financial stability requirements for tenders R_8BD</dt>
+<dd>
+<p>  tags: Procurement Integration Adaptation Plugin NewProduct
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  This is a matter of softening the financial solvency criteria called for.
+The aim is not to put artificial impediments in the way of small and medium-sized companies and cooperatives submitting a bid when they meet (often more than big ones) the technical solvency criteria.
+ <br>
+  As explained in the Join Up Guideline on public procurement of Open Source Software&lt;document/guideline-public-procurement-open-source-software&gt;, page 47, (document commissioned by the European Commission) the greater interoperability and interdependence of suppliers when working in open code increases the sustainability of projects without the need for very high financial requirements.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="dissemination-of-the-project"><a class="anchor" href="#dissemination-of-the-project"></a>Dissemination of the project</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Chose a good name for the project M_2E0</dt>
+<dd>
+<p>tags: NewProduct Publication
++
+links incoming: None
++
+links outgoing: None
++
+This is more important in open source projects than in traditional ones because getting users and developers from outside the confines of the City Council could determine the project’s level of success
++
+More specific pointers can be found at <a href="http://producingoss.com/en/getting-started.html#choosing-a-name" class="bare">http://producingoss.com/en/getting-started.html#choosing-a-name</a>.</p>
+</dd>
+<dt class="hdlist1">Recommendation: Get the name in the important online namespaces (3.3, 7.0) R_D68</dt>
+<dd>
+<p>  tags: NewProduct Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  For big projects it is advisable from the outset to think about the internet sites and platforms where it is essential to have a presence and ensure the domains and corresponding usernames are available.
+Besides one or more own ICANN domains, a project might want to be present in GitHub or Twitter, for example.
+Using the same username everywhere makes it easier for people to identify the project, even if they are not heavily involved in it.</p>
+</dd>
+<dt class="hdlist1">Measure: Draw up a clear mission statement and put it in prominent places M_02C</dt>
+<dd>
+<p>  tags: Integration NewProduct Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  The mission statement is a short text of one or two paragraphs that allows people to decide in 30 seconds if they are interested in carrying on reading about the project or not.
+It should be accompanied by the necessary links in case the answer is yes.
+When writing it we can assume potential readers have a minimum knowledge of the project’s area of application.
+People without such knowledge will probably not be interested in the project.
+ <br>
+  The text should at least be in English and Catalan, for using the most suitable version in each case.
+ <br>
+  It should appear in the following places at least:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The home page of the website targeted at project users, if there is one.
+It should be capable of being seen without the need to scroll down the page on a desktop computer.</p>
+</li>
+<li>
+<p>The <code>README</code> file of the main repository.</p>
+</li>
+<li>
+<p>The project list at <a href="https://ajuntamentdebarcelona.github.io/">https://ajuntamentdebarcelona.github.io</a></p>
+</li>
+<li>
+<p>Every time the project is entered in a repository or open source project list, for example <a href="https://joinup.ec.europa.eu/">Join Up of the European Union</a>.</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt class="hdlist1">Measure: Specify the project is open source in prominent places M_B8A</dt>
+<dd>
+<p>tags: Plugin NewProduct Publication
++
+links incoming: None
++
+links outgoing: None
++
+This measure is to ensure potential collaborators do not have to look too far to know whether they are willing to contribute to the project or not.
++
+It is also important to state under which specific licence (including the version) the software is being distributed, using the full name or identifier, whichever is best in each case, exactly as they appear at <a href="https://spdx.org/licenses/" class="bare">https://spdx.org/licenses/</a>.
++
+Specify the licence in the following places at least:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The home page of the website targeted at project users, if there is one.
+It should be capable of being seen without the need to scroll down the page on a desktop computer.</p>
+</li>
+<li>
+<p>The <code>README</code> file of the main repository.</p>
+</li>
+<li>
+<p>The project list at <a href="https://ajuntamentdebarcelona.github.io/">https://ajuntamentdebarcelona.github.io</a></p>
+</li>
+<li>
+<p>Every time the project is entered in a repository or open source project list, for example <a href="https://joinup.ec.europa.eu/">Join Up of the European Union</a>.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>With regard to the website targeted at project users, it is important not to relegate this to a “downloads” or “development” page which might require more than one click.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Specify a feature list in easily accessible places M_2BC</dt>
+<dd>
+<p>tags: Plugin NewProduct Publication
++
+links incoming: None
++
+links outgoing: None
++
+This helps people to decide whether or not the project might cover their needs.
++
+Create a visible link to it from at least:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The home page of the website targeted at project users, if there is one.
+The link should be capable of being seen without the need to scroll down the page on a desktop computer.</p>
+</li>
+<li>
+<p>The <code>README</code> file of the main repository.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Better in the form of a list with bullet points and simple sentences, or an even more graphic form.
+Often it is a kind of extension of the mission statement.</p>
+</div>
+<div class="paragraph">
+<p>If a feature has not been implemented yet, it can be specified in brackets as: <em>planned</em> or <em>work-in-progress</em>.</p>
+</div>
+<div class="paragraph">
+<p>As explained in more detail in measure <em>M</em>: <em>Specify and maintain a website with the development status of the project</em>, it makes no sense, indeed in could be counter-productive, to falsify or exaggerate the product’s real technical merits.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Specify the main technical requirements in easily accessible places M_3BF</dt>
+<dd>
+<p>  tags: Plugin NewProduct Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  For example, what hardware/software architecture is required for installing it, which operating system and so on.
+This information is also necessary so a potential user can see whether they can use the solution or not.
+ <br>
+  Create a visible link to it from at least:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The home page of the website targeted at project users, if there is one.
+The link should be capable of being seen without the need to scroll down the page on a desktop computer.</p>
+</li>
+<li>
+<p>The <code>README</code> file of the main repository.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Better in the form of a list with bullet points and simple sentences.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Recommendation: Specify the differences with similar products in easily accessible places R_0D4</dt>
+<dd>
+<p>  tags: Plugin NewProduct Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  Above all, highlight the advantages compared with better-known and well established tools, free or privately owned, but do not hide the limitations.
+ <br>
+  Create a visible link from the website targeted at project users, if there is one.
+Strictly technical differences can also be linked from the development website.</p>
+</dd>
+<dt class="hdlist1">Measure: Specify and maintain a page with the development status of the project M_031</dt>
+<dd>
+<p>tags: Plugin NewProduct Publication
++
+links incoming: None
++
+links outgoing: None
++
+This involves writing a list which is periodically updated for each release or important milestone containing:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The previous releases, with the publication date and the main changes that were introduced.</p>
+</li>
+<li>
+<p>Future releases or project milestones with a tentative date as a very schematic roadmap.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>The purpose of this page is to highlight three things:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Which milestones have been achieved.</p>
+</li>
+<li>
+<p>Where the project is heading and how far there is to go to reach the other milestones.</p>
+</li>
+<li>
+<p>How active the project and its community are and how well maintained the code is.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Create a link from at least:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The website targeted at project users</p>
+</li>
+<li>
+<p>The <code>README</code> file of the main repository.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>It is very important to be transparent and not falsify the real status of the project.
+It is more harmful to attract users with expectations it will be impossible to satisfy than err on the side of conservatism when outlining the progress made or expected.
+All projects have defects and it makes everyone’s life easier (project developers, promoters and potential outside users) to deal with them transparently.
+Most successful open source software projects have a “Known bugs” section on their website, and some of these bugs stay there for years.</p>
+</div>
+<div class="paragraph">
+<p>What’s more, in the case of open source code, the whole code and the whole process can be seen by everybody, and everybody can install and test the product.
+Anybody can refute our affirmations if they are not certain, as explained in <a href="http://producingoss.com/en/marketing.html#goldfish-bowl" class="bare">http://producingoss.com/en/marketing.html#goldfish-bowl</a>.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Recommendation: Establish measures to improve the visibility of the progress and level of activity on the project R_1ED</dt>
+<dd>
+<p>tags: Plugin NewProduct Publication
++
+links incoming: None
++
+links outgoing: None
++
+Automatic status indicators and feedback can be placed on the home page of the users’ and developers’ websites, or other places, with information from, for example:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The repository, e.g. the latest commit messages.</p>
+</li>
+<li>
+<p>The ongoing integration system, e.g. what builds or test series have worked or failed recently.</p>
+</li>
+<li>
+<p>The incident and bug notification system.</p>
+</li>
+<li>
+<p>Project and user Twitter profiles.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Another possibility is to show in graphic form a kind of progress calendar with the different versions.</p>
+</div>
+<div class="paragraph">
+<p>By way of example, the way the <a href="https://launchpad.net/inkscape">Ubuntu Launchpad example project</a> information is shown could be added.</p>
+</div>
+<div class="paragraph">
+<p>The aim is to reinforce and highlight all the points made in the #h:a22a9688-f8e2-473d-baf5-8989693a41c1[Measure: Specify and maintain a page with the development status of the project].</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Recommendation: Negotiate beforehand how to highlight the contributions sponsored by the City Council R_51D</dt>
+<dd>
+<p>  tags: Adaptation Plugin
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  Barcelona City Council might be interested in software projects it has not started but makes some sort of contribution to (add-ons, translations, hours of maintenance work) recognising and publicising these contributions.
+What form that takes will depend on each project and the nature of the contributions.
+Some examples:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Mention in a public list of bodies that participate in or contribute to the project.</p>
+</li>
+<li>
+<p>The City Council logo appearing in the project website.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Before initiating collaboration it is a good idea to talk with the project development community about the kind of recognition the City Council would like in each case.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="parametrisation-configuration-and-installation"><a class="anchor" href="#parametrisation-configuration-and-installation"></a>Parametrisation, configuration and installation</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Get the successful bidders to parametrise the product using configuration files M_C3C</dt>
+<dd>
+<p>tags: Procurement Integration Adaptation Plugin NewProduct Publication
++
+links incoming: None
++
+links outgoing: None
++
+Don’t use <em>magic numbers</em> in the code</p>
+</dd>
+</dl>
+</div>
+<div id="M_7EA" class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Implement and document build and installation procedures with widely used free tools M_7EA</dt>
+<dd>
+<p>  tags: Day1 Plugin NewProduct Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  It is very important not to delay building and documenting a software build system, because without it, the effort any developer has to put in to testing the tool will probably be too great for anyone to try it.
+ <br>
+  Needless to say, users and potential collaborators in an open source project cannot be forced to depend on tools that are not open source as well, and, it is best to choose the most commonly used ones which the majority of developers are most familiar with.
+That might vary from one community to another.
+Some examples of commonly used build tools (some of which can also be used in configuration and installation procedures) that we recommend are:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>For Java projects: Maven, Ant (also for other languages).</p>
+</li>
+<li>
+<p>For Python projects follow the advice of <a href="http://python-packaging.readthedocs.io/en/latest/index.html" class="bare">http://python-packaging.readthedocs.io/en/latest/index.html</a>, which also include information on packaging.</p>
+</li>
+<li>
+<p>For JavaScript projects (and front-end in general): Gulp.js.</p>
+</li>
+<li>
+<p>For Ruby projects: Rake.</p>
+</li>
+<li>
+<p>General use: CMake, Nix.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="packaging-and-rollout"><a class="anchor" href="#packaging-and-rollout"></a>Packaging and rollout</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Get the successful bidder responsible for rollout to use the same code published in the main repository M_A69</dt>
+<dd>
+<p>  tags: Procurement Adaptation Plugin NewProduct
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  As a condition of transparency, the source code used at any time in building and rolling out the services in production must be available in the City Council’s public repository, preferably under the <code>master</code> branch.
+Any security patch, improvement or modification of any kind that is applied to the code in production must be reflected in the repository.
+ <br>
+  The code available in the public repository is the one fully covered by an open source licence.
+Nothing can be added to it.</p>
+</dd>
+<dt class="hdlist1">Recommendation: Establish and explicit versions policy in the <code>README</code> file R_FBC</dt>
+<dd>
+<p>  tags: Plugin NewProduct Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  Every repository should have an explicit versions policy.
+Software projects normally use version identifiers based on <code>MAJOR.MINOR.PATCH</code> number sequences.
+ <br>
+  A suitable versions policy must be chosen for each project.
+Each technological community (Java, Python, Drupal, etc.) might have a preferred versions policy so it is advisable to find out which one it is and stick to it.
+If there is no clear policy, we can subscribe to a well-known generic policy, such as <a href="http://semver/">Semantic Versioning</a>.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="use-open-formats-and-standards"><a class="anchor" href="#use-open-formats-and-standards"></a>Use open formats and standards</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Check the user interface meets W3C standards as regards web applications M_F7E</dt>
+<dd>
+<p>tags: Plugin NewProduct
++
+links incoming: None
++
+links outgoing: None
++
+User interfaces, whether they are for public, administration or internal use, have to comply with World Wide Web Consortium (W3C) standards and should not require the use of features provided by privately owned browser extensions The presentation has to be displayed correctly and the product has to be fully functional, with the browsers of the family: Gecko (Firefox), WebKit/Blink (Chrome, Safari, Konqueror) or Trident/EdgeHTML (Microsoft).</p>
+</dd>
+<dt class="hdlist1">Measure: Use open formats in exchanging documents with the public and other systems M_676</dt>
+<dd>
+<p>  tags: Adaptation Plugin NewProduct Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  Any exchange of documents with the public that involves downloading or uploading files has to be done exclusively with open formats, as defined by the Barcelona City Council ICT Procurement Guide.
+Internal document storage by the application will also be done in these same formats.
+In particular, all text file exchanges will either be in OpenDocument Format (<a href="https://www.oasis-open.org/">https://www.oasis-open.org</a>), or PDF format.
+Images, audio and video will also be exchanged by means of open formats for which free implementation exists in the main IT platforms including GNU/Linux.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="internationalisation"><a class="anchor" href="#internationalisation"></a>Internationalisation</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Define and budget the technical requirements so the product can be translated and internationalised M_1E5</dt>
+<dd>
+<p>  tags: Procurement Adaptation Plugin NewProduct
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  All the messages shown to users have to be internationalised.
+Use the usual mechanisms in each language/platform.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="opening-a-code-that-was-initially-closed"><a class="anchor" href="#opening-a-code-that-was-initially-closed"></a>Opening a code that was initially closed</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This section will explain how to prepare a code that was closed so it can be developed and kept open once the decision to publish it has been taken.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Measure: Judge whether it is convenient or not to publish a City Council code M_932</dt>
+<dd>
+<p>tags: Publication
++
+links incoming: None
++
+links outgoing: None
++
+Before publishing an existing software component or system in use at Barcelona City Council under a free licence, we need to check whether:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>It corresponds to a general need: it could be useful to more institutions or organisations, besides the City Council.</p>
+</li>
+<li>
+<p>It has some aspect that sets it apart from other, existing open solutions.</p>
+</li>
+<li>
+<p>Barcelona City Council holds legal title over the whole code it aims to release, or can obtain legal title.</p>
+</li>
+<li>
+<p>It can be used on free or open source platforms.</p>
+</li>
+<li>
+<p>The code (and associated documentation) is sufficiently developed and of a high enough quality, or the improvement requirements have been clearly identified and there is a strategy for tackling them.</p>
+</li>
+<li>
+<p>Opening the source code will not pose any legal risks for either party.</p>
+</li>
+<li>
+<p>Resources are available for responding to maintenance incidents until this responsibility is handed over to other bodies or organisations, possibly an open community of developers and users.</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt class="hdlist1">Measure: Look for sensitive information or user settings in the code repository M_A6A</dt>
+<dd>
+<p>tags: Publication
++
+links incoming: None
++
+links outgoing: None</p>
+</dd>
+<dt class="hdlist1">Measure: Advise new public spaces geared towards developers that this was a closed project M_B77</dt>
+<dd>
+<p>  tags: Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  This means explaining that, up to a certain date, the project operated as a closed project, so some inconvenience is to be expected.
+Developer and user expectations regarding the quality and transparency of some aspects of the project need to be lowered.
+The commitments made to make it possible to open the code also need explaining.
+For example, there may be lots of sensitive data in the code repository (specific user data, etcetera) so it has been decided to lose the version control history and create a new top-skim repository that only contains the latest version.
+ <br>
+  This information should be published in at least the following places:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The development website (now open and public).</p>
+</li>
+<li>
+<p>Public mail lists.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>The aim of this measure is to avoid an avalanche of requests.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Recommendation: Warn developers of the possible consequences of the project’s imminent opening R_70F</dt>
+<dd>
+<p>  tags: Publication
+ <br>
+  links incoming: None
+ <br>
+  links outgoing: None
+ <br>
+  If we have a way of contacting people who have participated or who are participating in a project we are going to open, for example, by means of private emails, it is worth informing them of this fact.
+Opening a code that was not initially written to be open might make its authors uncomfortable, so we need to explain that that’s normal.
+The following work can be referred to, to help clarify the situation: <a href="http://producingoss.com/en/opening-closed-projects.html" class="bare">http://producingoss.com/en/opening-closed-projects.html</a>.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</article>
+  </main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script src="../../_/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+  </body>
+</html>
