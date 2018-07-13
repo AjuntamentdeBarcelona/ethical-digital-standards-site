@@ -1,0 +1,2 @@
+* xref:tech-practices:ROOT:aim-and-scope.adoc[Code of Technological Practices]
+* xref:free-soft:ROOT:introduction.adoc[Free Software Management Guidelines]
