@@ -2,19 +2,27 @@ runtime:
   cache_dir: ./.cache/antora
 site:
   title: Ethical Digital Standards BCN
-  url: https://ajuntamentdebarcelona.github.io/ethical-digital-standards
-  start_page: free-soft:ROOT:introduction.adoc
+  url: https://ajuntamentdebarcelona.github.io/ethical-digital-standards-site
+  start_page: init:ROOT:index.adoc
 content:
   sources:
-  - url: https://github.com/gmarpons/free-software-guidelines-bcn-en.git
+  - url: https://github.com/AjuntamentDeBarcelona/ethical-digital-standards-site.git
     branches: [master]
-  # - url: https://gitlab.com/antora/demo/demo-component-b.git
-  #   branches: [v2.0, v1.0]
-  #   start_path: docs
+    start_path: landing-page
+  - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en.git
+    branches: [master]
 asciidoc:
   attributes:
-    idprefix: ''
-    idseparator: '-'
+    xrefstyle: short
+#     idprefix: ''
+#     idseparator: '-'
+#     linkattrs: ''
+#     toc: ~
+#     sectnums: ~
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
