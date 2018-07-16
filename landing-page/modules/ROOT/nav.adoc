@@ -1,2 +1,3 @@
 * xref:tech-practices:ROOT:aim-and-scope.adoc[Code of Technological Practices]
+* xref:tech-sovereignty:ROOT:introduction.adoc[Technological Sovereignty Guide]
 * xref:free-soft:ROOT:introduction.adoc[Free Software Management Guidelines]

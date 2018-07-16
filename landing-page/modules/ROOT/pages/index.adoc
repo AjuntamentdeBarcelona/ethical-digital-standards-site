@@ -5,7 +5,7 @@ The following documents are subject to modification in the following weeks or mo
 
 * Barcelona City Council Digital Plan
 * xref:tech-practices:ROOT:aim-and-scope.adoc[Code of Technological Practices]
-* Technological Sovereignty Guide
+* xref:tech-sovereignty:ROOT:introduction.adoc[Technological Sovereignty Guide]
 * xref:free-soft:ROOT:introduction.adoc[Free Software Management Guidelines]
 * ICT Public Procurement Guide
 * Innovative Public Procurement Guide
