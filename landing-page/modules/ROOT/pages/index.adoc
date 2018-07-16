@@ -1,4 +1,5 @@
 = List of Standards
+:icons: font
 
 WARNING: This is a work in progress.
 The following documents are subject to modification in the following weeks or months.
