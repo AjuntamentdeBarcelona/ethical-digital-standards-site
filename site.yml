@@ -15,6 +15,8 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-en.git
+    branches: [master]
 asciidoc:
   attributes:
     xrefstyle: short
