@@ -21,12 +21,36 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <!-- <a class="navbar-item" href="#">Top</a> -->
-        <!-- <div class="navbar-item">
-             <span class="control">
-             <a class="button is-primary" href="#">Download</a>
-             </span>
-             </div> -->
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
       </div>
     </div>
   </nav>
@@ -36,9 +60,8 @@
   <aside class="navigation" role="navigation">
     <div class="panels">
 <div class="navigation-menu is-active" data-panel="menu">
-    <nav class="nav-menu">
-            <!-- <h3 class="title"><a href=""></a></h3> -->
-            <h3 class="title"><a href="introduction.html">Free Software Management Guidelines</a></h3>
+  <nav class="nav-menu">
+    <h3 class="title"><a href="introduction.html">Free Software Management Guidelines</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -94,6 +117,14 @@
       </ul>
     </li>
     <li class="component">
+      <span class="title">ICT Public Procurement Guide</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../ict-procurement/0.1/context.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
       <span class="title">List of Standards</span>
       <ul class="versions">
         <li class="version is-latest">
@@ -140,7 +171,7 @@ In this chapter we recommend some common tools and practices for using them in t
 </div>
 </div>
 <div class="sect1">
-<h2 id="websites-associated-with-the-project"><a class="anchor" href="#websites-associated-with-the-project"></a>Websites associated with the project</h2>
+<h2 id="_websites_associated_with_the_project"><a class="anchor" href="#_websites_associated_with_the_project"></a>Websites associated with the project</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A typical software project might have two websites:</p>
@@ -230,7 +261,7 @@ This could either be in the Community section or on the home page, with a link s
 </div>
 </div>
 <div class="sect1">
-<h2 id="code-repository-and-version-control"><a class="anchor" href="#code-repository-and-version-control"></a>Code repository and version control</h2>
+<h2 id="_code_repository_and_version_control"><a class="anchor" href="#_code_repository_and_version_control"></a>Code repository and version control</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A key element of the project development website is a code repository (public and under version control) which serves as a base for centralising modifications that form part of each new product release.</p>
@@ -597,7 +628,7 @@ and our defect notifications to make sense.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="issue-manager"><a class="anchor" href="#issue-manager"></a>Issue manager</h2>
+<h2 id="_issue_manager"><a class="anchor" href="#_issue_manager"></a>Issue manager</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>One tool all free software projects need is an issue manager or bug tracker.
@@ -767,7 +798,7 @@ one of the main contributions we can make to the project is to detect, isolate a
 </div>
 </div>
 <div class="sect1">
-<h2 id="integration-infrastructure-and-testing"><a class="anchor" href="#integration-infrastructure-and-testing"></a>Integration infrastructure and testing</h2>
+<h2 id="_integration_infrastructure_and_testing"><a class="anchor" href="#_integration_infrastructure_and_testing"></a>Integration infrastructure and testing</h2>
 <div class="sectionbody">
 <div id="4.4.A" class="sidebarblock alternative">
 <div class="content">
@@ -796,7 +827,7 @@ one of the main contributions we can make to the project is to detect, isolate a
 </div>
 </div>
 <div class="sect1">
-<h2 id="internal-and-external-communication-channels"><a class="anchor" href="#internal-and-external-communication-channels"></a>Internal and external communication channels</h2>
+<h2 id="_internal_and_external_communication_channels"><a class="anchor" href="#_internal_and_external_communication_channels"></a>Internal and external communication channels</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The first lines of communication between developers are the repository commit messages and the issue manager threads.
@@ -877,12 +908,8 @@ If the people behind a product can be contacted, it engenders confidence in the 
   </main>
 </div>
 <footer class="footer">
-    <p>Copyright (C) 2018 Ajuntament de Barcelona. The contents of this website is
-    distributed under a Creative Commons Attribution-ShareAlike 4.0 International license
-    (CC-BY-SA-4.0).</p>
-
-    <p>This page was built using the Antora default UI. The source code for this UI is
-    licensed under the terms of the MPL-2.0 license.</p>
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
 </footer>
 <script src="../../_/js/site.js"></script>
 <script src="../../_/js/vendor/highlight.js"></script>

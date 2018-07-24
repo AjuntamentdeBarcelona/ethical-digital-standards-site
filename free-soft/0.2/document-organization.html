@@ -21,12 +21,36 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <!-- <a class="navbar-item" href="#">Top</a> -->
-        <!-- <div class="navbar-item">
-             <span class="control">
-             <a class="button is-primary" href="#">Download</a>
-             </span>
-             </div> -->
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
       </div>
     </div>
   </nav>
@@ -36,9 +60,8 @@
   <aside class="navigation" role="navigation">
     <div class="panels">
 <div class="navigation-menu is-active" data-panel="menu">
-    <nav class="nav-menu">
-            <!-- <h3 class="title"><a href=""></a></h3> -->
-            <h3 class="title"><a href="introduction.html">Free Software Management Guidelines</a></h3>
+  <nav class="nav-menu">
+    <h3 class="title"><a href="introduction.html">Free Software Management Guidelines</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -90,6 +113,14 @@
       <ul class="versions">
         <li class="version is-current is-latest">
           <a href="introduction.html">0.2</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">ICT Public Procurement Guide</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../ict-procurement/0.1/context.html">0.1</a>
         </li>
       </ul>
     </li>
@@ -176,7 +207,7 @@ The other chapters set out the measures and recommendations by subject areas and
 </div>
 </div>
 <div class="sect1">
-<h2 id="use-case-tags"><a class="anchor" href="#use-case-tags"></a>Use-case tags</h2>
+<h2 id="_use_case_tags"><a class="anchor" href="#_use_case_tags"></a>Use-case tags</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In this section we define the different situations or <strong>use-cases</strong> that can arise in technological projects in relation to the free software components they are based on.
@@ -241,7 +272,7 @@ This means different Use-Cases can coincide in the same project if different com
 <p>The <code>Integration</code>, <code>Adaptation</code>, <code>Plugin</code> and <code>NewProduct</code> use-cases may occasionally require a <strong>migration</strong>, if we find ourselves in a situation of implementing a system that partially or totally replaces the functions of a previous system.</p>
 </div>
 <div class="sect2">
-<h3 id="code-integration-code-use-case"><a class="anchor" href="#code-integration-code-use-case"></a><code>Integration</code> Use-Case</h3>
+<h3 id="_code_integration_code_use_case"><a class="anchor" href="#_code_integration_code_use_case"></a><code>Integration</code> Use-Case</h3>
 <div class="paragraph">
 <p>This Use-Case may involve creating one or more own repositories, not to manage the code of any software <em>per se</em> but to:</p>
 </div>
@@ -298,7 +329,7 @@ In this case, we will try to fit the translations into the original project, whi
 </div>
 </div>
 <div class="sect2">
-<h3 id="code-adaptation-code-use-case"><a class="anchor" href="#code-adaptation-code-use-case"></a><code>Adaptation</code> Use-Case</h3>
+<h3 id="_code_adaptation_code_use_case"><a class="anchor" href="#_code_adaptation_code_use_case"></a><code>Adaptation</code> Use-Case</h3>
 <div class="paragraph">
 <p>This use-case might involve creating one or more own repositories with the same contents described for the <a href="#escenari-integracio">Integration Use-Case</a>.
 A distinctive feature of this use-case, however, is that Barcelona City Council is sponsoring the development of a significant contribution to a free software product that could potentially be incorporated into the original product (even if this integration does not take place while it is being developed).
@@ -334,7 +365,7 @@ These features are now part of the <a href="https://github.com/globaleaks/GlobaL
 </div>
 </div>
 <div class="sect2">
-<h3 id="code-plugin-code-use-case"><a class="anchor" href="#code-plugin-code-use-case"></a><code>Plugin</code> Use-case</h3>
+<h3 id="_code_plugin_code_use_case"><a class="anchor" href="#_code_plugin_code_use_case"></a><code>Plugin</code> Use-case</h3>
 <div class="paragraph">
 <p>This is a use-case half way between integrating new features into an already existing product (<a href="#escenari-adaptacio">Adaptation Use-case</a>) and developing a new product (<a href="\l">NewProduct Use-case</a>), and it shares features of both.</p>
 </div>
@@ -354,7 +385,7 @@ This product is <a href="http://docs.ckan.org/en/latest/extensions/plugin-interf
 </div>
 </div>
 <div class="sect2">
-<h3 id="code-newproduct-code-use-case"><a class="anchor" href="#code-newproduct-code-use-case"></a><code>NewProduct</code> Use-case</h3>
+<h3 id="_code_newproduct_code_use_case"><a class="anchor" href="#_code_newproduct_code_use_case"></a><code>NewProduct</code> Use-case</h3>
 <div class="paragraph">
 <p>When there is no component or combination of components available that satisfy a specific need, a new product has to be developed.
 This product may be based on other, already existing components, such as frameworks, libraries, database management systems, etc.</p>
@@ -376,7 +407,7 @@ Later it was necessary to make a fork from the original software and, finally, i
 </div>
 </div>
 <div class="sect2">
-<h3 id="code-publication-code-use-case"><a class="anchor" href="#code-publication-code-use-case"></a><code>Publication</code> Use-case</h3>
+<h3 id="_code_publication_code_use_case"><a class="anchor" href="#_code_publication_code_use_case"></a><code>Publication</code> Use-case</h3>
 <div class="paragraph">
 <p>Barcelona City Council owns a lot of software that is currently in use but which has never been published.
 The specific measures and recommendations for this use-case explain the additional checks that are necessary for publishing, under licence, a software code that initially was not conceived for free distribution.</p>
@@ -387,7 +418,7 @@ One possible situation is you might want to launch a new development contract fo
 </div>
 </div>
 <div class="sect2">
-<h3 id="code-document-code-use-case"><a class="anchor" href="#code-document-code-use-case"></a><code>Document</code> Use-case</h3>
+<h3 id="_code_document_code_use_case"><a class="anchor" href="#_code_document_code_use_case"></a><code>Document</code> Use-case</h3>
 <div class="paragraph">
 <p>Sometimes you may want to publish a document that has been drafted (or commissioned) that might not be linked directly to a single software project.
 Examples would be market studies, research projects, graphic design elements (such as logos) and so on.</p>
@@ -396,7 +427,7 @@ Examples would be market studies, research projects, graphic design elements (su
 </div>
 </div>
 <div class="sect1">
-<h2 id="tags-for-project-stages-and-milestones"><a class="anchor" href="#tags-for-project-stages-and-milestones"></a>Tags for project stages and milestones</h2>
+<h2 id="_tags_for_project_stages_and_milestones"><a class="anchor" href="#_tags_for_project_stages_and_milestones"></a>Tags for project stages and milestones</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>When classifying measures and recommendations, it is also worth taking into account at what point they should be applied.
@@ -460,12 +491,8 @@ As a general rule, we could say that technological projects go through the follo
   </main>
 </div>
 <footer class="footer">
-    <p>Copyright (C) 2018 Ajuntament de Barcelona. The contents of this website is
-    distributed under a Creative Commons Attribution-ShareAlike 4.0 International license
-    (CC-BY-SA-4.0).</p>
-
-    <p>This page was built using the Antora default UI. The source code for this UI is
-    licensed under the terms of the MPL-2.0 license.</p>
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
 </footer>
 <script src="../../_/js/site.js"></script>
 <script src="../../_/js/vendor/highlight.js"></script>

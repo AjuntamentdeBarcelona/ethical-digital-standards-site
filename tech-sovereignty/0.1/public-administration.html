@@ -21,12 +21,36 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <!-- <a class="navbar-item" href="#">Top</a> -->
-        <!-- <div class="navbar-item">
-             <span class="control">
-             <a class="button is-primary" href="#">Download</a>
-             </span>
-             </div> -->
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
       </div>
     </div>
   </nav>
@@ -36,9 +60,8 @@
   <aside class="navigation" role="navigation">
     <div class="panels">
 <div class="navigation-menu is-active" data-panel="menu">
-    <nav class="nav-menu">
-            <!-- <h3 class="title"><a href=""></a></h3> -->
-            <h3 class="title"><a href="introduction.html">Technological sovereignty guide</a></h3>
+  <nav class="nav-menu">
+    <h3 class="title"><a href="introduction.html">Technological sovereignty guide</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -94,6 +117,14 @@
       </ul>
     </li>
     <li class="component">
+      <span class="title">ICT Public Procurement Guide</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../ict-procurement/0.1/context.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
       <span class="title">List of Standards</span>
       <ul class="versions">
         <li class="version is-latest">
@@ -129,7 +160,7 @@
 <article class="doc">
 <h1>Free Software and the Public Administration</h1>
 <div class="sect1">
-<h2 id="in-practice"><a class="anchor" href="#in-practice"></a>In practice</h2>
+<h2 id="_in_practice"><a class="anchor" href="#_in_practice"></a>In practice</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>There are many examples of free software being used and created by public administrations both in Europe and across the world.
@@ -170,7 +201,7 @@ The central Government also maintains a repository of reusable software (at the 
 </div>
 </div>
 <div class="sect1">
-<h2 id="advantages"><a class="anchor" href="#advantages"></a>Advantages</h2>
+<h2 id="_advantages"><a class="anchor" href="#_advantages"></a>Advantages</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The advantages of the public administration using free software has been addressed countless times.
@@ -232,7 +263,7 @@ The resulting reuse makes it possible to enhance cost savings as part of the dev
 </div>
 </div>
 <div class="sect1">
-<h2 id="legal-framework"><a class="anchor" href="#legal-framework"></a>Legal framework</h2>
+<h2 id="_legal_framework"><a class="anchor" href="#_legal_framework"></a>Legal framework</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>It is clear that Spanish public administrations are competent in terms of acquiring and using free software, exchanging it among themselves and releasing the software they own to the community.
@@ -274,7 +305,7 @@ Furthermore, in terms of the release of software, Article 16 recommends the use 
 </div>
 </div>
 <div class="sect1">
-<h2 id="public-procurement-of-free-software"><a class="anchor" href="#public-procurement-of-free-software"></a>Public Procurement of Free Software</h2>
+<h2 id="_public_procurement_of_free_software"><a class="anchor" href="#_public_procurement_of_free_software"></a>Public Procurement of Free Software</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In terms of the conditions for acquiring technologies for the administrations’ digital services as free software or free software-based applications, although no European country makes it mandatory to use free software, most ban discrimination against providers that submit bids involving free software, based on the principles of free competition and non-discrimination.
@@ -304,7 +335,7 @@ Beyond the standard public procurement procedures (specifications, bids, awards,
 </div>
 </div>
 <div class="sect1">
-<h2 id="licences-for-freeing-public-administration-software"><a class="anchor" href="#licences-for-freeing-public-administration-software"></a>Licences for freeing public administration software</h2>
+<h2 id="_licences_for_freeing_public_administration_software"><a class="anchor" href="#_licences_for_freeing_public_administration_software"></a>Licences for freeing public administration software</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Article 16 of the aforementioned Royal Decree 4/2010, of 8 January, establishes four conditions for Spanish public administrations to follow when releasing software:</p>
@@ -406,12 +437,8 @@ The EUPL is a particularly interesting licence given its appendix on “compatib
   </main>
 </div>
 <footer class="footer">
-    <p>Copyright (C) 2018 Ajuntament de Barcelona. The contents of this website is
-    distributed under a Creative Commons Attribution-ShareAlike 4.0 International license
-    (CC-BY-SA-4.0).</p>
-
-    <p>This page was built using the Antora default UI. The source code for this UI is
-    licensed under the terms of the MPL-2.0 license.</p>
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
 </footer>
 <script src="../../_/js/site.js"></script>
 <script src="../../_/js/vendor/highlight.js"></script>

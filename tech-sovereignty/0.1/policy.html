@@ -21,12 +21,36 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <!-- <a class="navbar-item" href="#">Top</a> -->
-        <!-- <div class="navbar-item">
-             <span class="control">
-             <a class="button is-primary" href="#">Download</a>
-             </span>
-             </div> -->
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
       </div>
     </div>
   </nav>
@@ -36,9 +60,8 @@
   <aside class="navigation" role="navigation">
     <div class="panels">
 <div class="navigation-menu is-active" data-panel="menu">
-    <nav class="nav-menu">
-            <!-- <h3 class="title"><a href=""></a></h3> -->
-            <h3 class="title"><a href="introduction.html">Technological sovereignty guide</a></h3>
+  <nav class="nav-menu">
+    <h3 class="title"><a href="introduction.html">Technological sovereignty guide</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -94,6 +117,14 @@
       </ul>
     </li>
     <li class="component">
+      <span class="title">ICT Public Procurement Guide</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../ict-procurement/0.1/context.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
       <span class="title">List of Standards</span>
       <ul class="versions">
         <li class="version is-latest">
@@ -129,7 +160,7 @@
 <article class="doc">
 <h1>Policy on technological sovereignty and guidelines for its implementation</h1>
 <div class="sect1">
-<h2 id="principles-and-guidelines"><a class="anchor" href="#principles-and-guidelines"></a>Principles and guidelines</h2>
+<h2 id="_principles_and_guidelines"><a class="anchor" href="#_principles_and_guidelines"></a>Principles and guidelines</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The policy on the technological sovereignty of the City Council is based on the principles and guidelines set out in the 2017-2020 Digital Barcelona Plan: Transition towards technological sovereignty, digital service standards and the Code of Technological Practices.</p>
@@ -164,7 +195,7 @@ Some projects and their extensions (for example, Decidim Barcelona, Sentilo, BIM
 </div>
 </div>
 <div class="sect1">
-<h2 id="open-standards-and-interoperability"><a class="anchor" href="#open-standards-and-interoperability"></a>Open standards and interoperability</h2>
+<h2 id="_open_standards_and_interoperability"><a class="anchor" href="#_open_standards_and_interoperability"></a>Open standards and interoperability</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The digital services of Barcelona City Council must be implemented using shared and open architectures for services, information and technology.
@@ -334,7 +365,7 @@ For example, Geodata, for which a very strict framework is in place (<a href="ht
 </div>
 </div>
 <div class="sect1">
-<h2 id="free-software-and-the-reuse-of-resources"><a class="anchor" href="#free-software-and-the-reuse-of-resources"></a>Free software and the reuse of resources</h2>
+<h2 id="_free_software_and_the_reuse_of_resources"><a class="anchor" href="#_free_software_and_the_reuse_of_resources"></a>Free software and the reuse of resources</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The City Council&#8217;s policy in terms of free software seeks to harness, insofar as possible, the benefits of the free software development model, both in terms of the general technological sovereignty objective and on the grounds of economies and technological quality.
@@ -369,7 +400,7 @@ Public access to the source code is also a guarantee of transparency in terms of
 We will discuss each element in more detail, offering explanations and guidance for their implementation.</p>
 </div>
 <div class="sect2">
-<h3 id="general-guidelines"><a class="anchor" href="#general-guidelines"></a>GENERAL GUIDELINES</h3>
+<h3 id="_general_guidelines"><a class="anchor" href="#_general_guidelines"></a>GENERAL GUIDELINES</h3>
 <div class="paragraph">
 <p>The IMI&#8217;s basic free software principles for complying with the city&#8217;s technology sovereignty principles are as follows:</p>
 </div>
@@ -415,6 +446,8 @@ We will discuss each element in more detail, offering explanations and guidance 
 </li>
 <li>
 <p>The use of proprietary software shall only be accepted in cases in which:</p>
+<div class="openblock">
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
@@ -428,14 +461,12 @@ We will discuss each element in more detail, offering explanations and guidance 
 </li>
 </ul>
 </div>
-</li>
-</ol>
+</div>
 </div>
 <div class="paragraph">
 <p>For the purposes of this paragraph and the preceding paragraph, whether a solution is not viable shall depend on technical reasons or the necessary resources, or because the increase in the period of time in which the solution will be made available prevents the success of the project.</p>
 </div>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
+</li>
 <li>
 <p>The process for establishing whether the aforementioned exception is applicable is set out below in the section called “Preparation and preliminary designs”.</p>
 </li>
@@ -574,7 +605,7 @@ This directory can be consulted online at <a href="https://ajuntamentdebarcelona
 </table>
 </div>
 <div class="sect2">
-<h3 id="projects"><a class="anchor" href="#projects"></a>PROJECTS</h3>
+<h3 id="_projects"><a class="anchor" href="#_projects"></a>PROJECTS</h3>
 <div class="paragraph">
 <p>The use of free software and the corresponding open technology and development methods has specific implications in terms of the preparation and management of digital service projects.</p>
 </div>
@@ -853,7 +884,7 @@ This documentation will also be published and covered by a licence, which will b
 </table>
 </div>
 <div class="sect2">
-<h3 id="a-new-relationship-model-with-providers-and-the-community"><a class="anchor" href="#a-new-relationship-model-with-providers-and-the-community"></a>A NEW RELATIONSHIP MODEL WITH PROVIDERS AND THE COMMUNITY</h3>
+<h3 id="_a_new_relationship_model_with_providers_and_the_community"><a class="anchor" href="#_a_new_relationship_model_with_providers_and_the_community"></a>A NEW RELATIONSHIP MODEL WITH PROVIDERS AND THE COMMUNITY</h3>
 <div class="paragraph">
 <p>The city&#8217;s model for technological sovereignty seeks to prevent dependency on a single provider, which is also a key factor in increasing the capacity for innovation in public services.
 Wherever possible, the procurement of digital services must increase the diversity of providers.</p>
@@ -1060,7 +1091,7 @@ Furthermore, this also ensures the quality of changes that are introduced and co
 </table>
 </div>
 <div class="sect2">
-<h3 id="flexible-intellectual-property-policy"><a class="anchor" href="#flexible-intellectual-property-policy"></a>FLEXIBLE INTELLECTUAL PROPERTY POLICY</h3>
+<h3 id="_flexible_intellectual_property_policy"><a class="anchor" href="#_flexible_intellectual_property_policy"></a>FLEXIBLE INTELLECTUAL PROPERTY POLICY</h3>
 <div class="paragraph">
 <p>With respect to intellectual property rights, the City Council contemplates both the traditional figure of assignment of rights in new developments to the City Council as well as the option of allowing providers to retain ownership of rights in the results, provided that they release the software under a free software licence.
 This promotes local industry and the reuse of resources.</p>
@@ -1273,12 +1304,8 @@ Nor is it recommended to use very rare or unknown licences.</p>
   </main>
 </div>
 <footer class="footer">
-    <p>Copyright (C) 2018 Ajuntament de Barcelona. The contents of this website is
-    distributed under a Creative Commons Attribution-ShareAlike 4.0 International license
-    (CC-BY-SA-4.0).</p>
-
-    <p>This page was built using the Antora default UI. The source code for this UI is
-    licensed under the terms of the MPL-2.0 license.</p>
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
 </footer>
 <script src="../../_/js/site.js"></script>
 <script src="../../_/js/vendor/highlight.js"></script>
