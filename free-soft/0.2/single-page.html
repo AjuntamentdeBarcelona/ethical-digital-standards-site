@@ -49,7 +49,7 @@
     <a class="nav-link" href="document-organization.html">Document organization</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="open-development.html">Open development</a>
+    <a class="nav-link" href="open-development.html">Community development</a>
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="technical-infrastructure.html">Technical infrastructure</a>
@@ -58,7 +58,7 @@
     <a class="nav-link" href="component-management.html">Component management</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="open-communities.html">Open communities</a>
+    <a class="nav-link" href="open-communities.html">Free software communities</a>
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="legal-aspects.html">Legal aspects</a>
@@ -148,7 +148,7 @@
 <h2 id="_introduction"><a class="anchor" href="#_introduction"></a>1. Introduction</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Barcelona City Council has a policy for using and developing free software which is set out in the <a href="http://ajuntament.barcelona.cat/digital/ca/documentacio">Government Measure on Open Digitisation: Free software and agile development of public administration services</a>, approved in October 2017.</p>
+<p>Barcelona City Council has a policy for using and developing free software which is set out in the <a href="http://ajuntament.barcelona.cat/digital/ca/documentacio">Government Measure: Free software and agile development of public administration services</a>, approved in October 2017.</p>
 </div>
 <div class="paragraph">
 <p>This policy includes a series of principles and guidelines that are outlined in the following documents, annexed to the measure:</p>
@@ -167,7 +167,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>This Guide spells out these principles and guidelines in a series of measures and recommendations to help municipal IT staff (at the IMI) in their daily work on projects based on free software.
+<p>This Guide spells out these principles and guidelines in a series of measures and recommendations to help municipal IT staff (at the IMI, Municipal Institute of Information Technology) in their daily work on projects based on free software.
 It covers aspects such as:</p>
 </div>
 <div class="ulist">
@@ -187,7 +187,53 @@ It covers aspects such as:</p>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_purpose_of_this_guide"><a class="anchor" href="#_purpose_of_this_guide"></a>1.1. Purpose of this Guide</h3>
+<h3 id="_benefits_of_using_and_developing_free_it_solutions"><a class="anchor" href="#_benefits_of_using_and_developing_free_it_solutions"></a>1.1. Benefits of using and developing free IT solutions</h3>
+<div class="paragraph">
+<p>The main benefit expected from using and developing free software is that the City Council regains or maintains control of their computing, not ceding it to private hands.
+It is crucial for an entity that implements public services and processes a lot of information about citizens to know exactly what it is being executed, in what computers, who has access to the data, etc. As the <a href="https://www.gnu.org">GNU project</a> puts it:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>The state needs to insist on free software in its own computing for the sake of its computational sovereignty (the state&#8217;s control over its own computing). All users deserve control over their computing, but the state has a responsibility to the people to maintain control over the computing it does on their behalf. Most government activities now depend on computing, and its control over those activities depends on its control over that computing. Losing this control in an agency whose mission is critical undermines national security.</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; Richard Stallman<br>
+<cite><a href="https://www.gnu.org/philosophy/government-free-software.en.html">Measures Governments Can Use to Promote Free Software</a></cite>
+</div>
+</div>
+<div class="paragraph">
+<p>Both the GNU document above and the <a href="https://ajuntament.barcelona.cat/digital/en/blog/barcelona-digital-government-open-agile-and-participatory">Release note of the Government Measure: Free software and agile development of public administration services</a> envision other benefits:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Encouraging local software support businesses, more easily including small and medium-sized businesses in the procurement process.</p>
+</li>
+<li>
+<p>Creating crucial new capabilities in the public sector through internalisation of staff and a programme to create in-house skills to drive transformation.</p>
+</li>
+<li>
+<p>Increasing transparency and auditability of administrative processes.</p>
+</li>
+<li>
+<p>Never requiring individuals or organizations that need to interact with the City Council to use a nonfree program (that would be equivalent to a state-sanctioned monopoly).</p>
+</li>
+<li>
+<p>Ensuring data sovereignty, privacy and security, for the citizens and for the municipality.</p>
+</li>
+<li>
+<p>Avoiding vendor lock-in and, more generally, freeing IT policy and planning from commercial strategies, constructing better tailored, more flexible, more sustainable solutions.</p>
+</li>
+<li>
+<p>Saving money, by avoiding proprietary license fees and through sharing and pooling of resources among municipalities and other government agencies.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_purpose_of_this_guide"><a class="anchor" href="#_purpose_of_this_guide"></a>1.2. Purpose of this Guide</h3>
 <div class="paragraph">
 <p>This Guide serves a double purpose:</p>
 </div>
@@ -197,55 +243,10 @@ It covers aspects such as:</p>
 <p>To help IMI staff use technologies based on free software so they make the most of its advantages and minimise potential risks.</p>
 </li>
 <li>
-<p>To help maintain Barcelona City Council’s reputation as a transparent and reliable
-institutional collaborator in free software projects, taking into account the sector’s best practices.</p>
+<p>To help maintain Barcelona City Council&#8217;s reputation as a transparent and reliable
+institutional collaborator in free software projects, taking into account the sector&#8217;s best practices.</p>
 </li>
 </ol>
-</div>
-<div class="paragraph">
-<p>The benefits expected from using free software and open standards are explained in the <a href="http://ajuntament.barcelona.cat/digital/sites/default/files/le_mesuradegovern_v2.pdf">Government Measure on Open Digitisation</a> (page 22).
-We reproduce them here:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Transparency</strong>: the source code can be examined and audited by anyone with sufficient technical knowledge, with no need for explicit permission from the manufacturer or the City Council.
-Without this characteristic it is difficult to trust the neutrality and security of a growing number of governmental and administrative processes that are implemented through software, such as voting processes.</p>
-</li>
-<li>
-<p><strong>Interoperability</strong>: the use of open formats and standards enables different systems, possibly made by different manufacturers, to operate together without any legal or technical barriers.
-This enables integrating different systems, reusing data and improving processes, for example.
-It also ensures that the general public are not forced to use the technological solutions of specific providers to interact with the public authority.</p>
-</li>
-<li>
-<p><strong>Sovereignty</strong>: transparency and interoperability greatly reduce dependence on the commercial strategies of manufacturers.
-Users, in this case the City Council, are free to decide which systems they want to develop, scale or replace, as well as their own policies on security, privacy, updating and access to the systems.
-In the case of organisations, sovereignty also encourages control over their own processes and knowledge generation and conservation.</p>
-</li>
-<li>
-<p><strong>Flexibility</strong>: systems can be better adapted to the users’ needs, and they can be adapted and extended as those needs evolve, without depending on a particular provider.
-Not only is development more flexible, it is also much easier and cheaper to assess alternatives, while operating conditions and maintenance can be modified more easily too.</p>
-</li>
-<li>
-<p><strong>Sustainability</strong>: interoperability enables different parts of the system that need renewing to be replaced while maintaining the availability of data.
-Greater sovereignty also means there  is less risk that any part of the system, including the hardware, becomes obsolete.
-Collaboration (between people and organisations) that is encouraged by free licences can be a great help in making a system more durable and stable.</p>
-</li>
-<li>
-<p><strong>Efficiency</strong>: factors such as reducing costs related to license fees, more competition between suppliers, less risk of obsolescence and the possibility of sharing costs with other bodies or organisations, mean that free software based on open standards is the best option for ensuring that public authorities are efficient, as they are required to be by law.
-The huge amount of software that can be combined enables solutions to be developed in many domains that are much better adapted to the end requirements, with less use of resources.</p>
-</li>
-<li>
-<p><strong>Reliability and security</strong>: being independent from commercial strategies means that the organisation can demand better quality services and take advantage of all the adjustments and improvements provided by the development and support community of each tool.</p>
-</li>
-<li>
-<p><strong>Innovation</strong>: transparency, and a fortunate combination of collaboration and competition, means that free software is an enormously fertile terrain for technological, social and process innovation.
-The direct beneficiaries of this knowledge production are the people who produce and use the software, but indirectly the whole of society also benefits.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Besides the commitment to base IMI’s technological architecture increasingly on free software, we need to know and exploit the particular features of free software projects and communities so as to enable and maximise these benefits.</p>
 </div>
 <div class="paragraph">
 <p>Despite the enormous diversity that currently exists among free software projects, a series of practices have gradually arisen that are shared by most projects and organisations which have a certain degree of success.
@@ -253,36 +254,24 @@ These cover technical and legal aspects, as well as project management.
 Some of these practices can be considered necessary, in the sense that the operational dynamics of free software projects reward certain types of conduct and penalise others.</p>
 </div>
 <div class="paragraph">
-<p>These practices are geared towards facilitating the widest possible diversity among participants, very often without any centralised coordination, while at the same time maintaining the quality of the product.
-In some cases they can be very different from working methods used when there is no intention of publishing the source code.
-This means IMI’s learning process and adaptation will have a cost, but we believe that it will be far outweighed by the organisational improvements it will bring – together with the incorporating agile methods – as well as all the benefits mentioned above.
-As Karl Fogel says:</p>
-</div>
-<div class="quoteblock">
-<blockquote>
-the open source projects your organization participates in are a membrane through which your managers and developers are regularly exposed to people and ideas outside your organizational hierarchy.
-It&#8217;s like having the benefits of attending a conference, but while still getting daily work done and without incurring travel expenses.
-In a successful open source project, these benefits, once they start arriving, greatly outweigh the costs.
-</blockquote>
-<div class="attribution">
-&#8212; Karl Fogel<br>
-<cite><a href="https://producingoss.com/en/introduction.html">Producing Open Source Software</a></cite>
-</div>
+<p>In some cases free software common practices can be very different from working methods used when there is no intention of publishing the source code under a free license.
+This means IMI&#8217;s learning process and adaptation will have a cost, but we believe that it will be far outweighed by the organisational improvements it will bring – together with the incorporating agile methods –.</p>
 </div>
 <div class="paragraph">
-<p>To sum up, this guide intends to explain the best practices available for using and developing free software.
-It does so by codifying and adapting these best practices to IMI, so they may serve as a guide in the learning process and in decision-making.</p>
+<p>This document codifies and adapts these best practices to IMI, so they may serve as a guide in the learning process and in decision-making.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_to_find_out_more"><a class="anchor" href="#_to_find_out_more"></a>1.2. To find out more</h3>
+<h3 id="_to_find_out_more"><a class="anchor" href="#_to_find_out_more"></a>1.3. To find out more</h3>
 <div class="paragraph">
-<p>A very good resource for understanding all the technical, legal and social aspects of free software is Karl Fogel’s book <a href="https://producingoss.com/en/index.html">Producing Open Source Software</a> (the 2017 edition, only available in an e-version, which can be freely consulted online).
-We have taken many of the recommendations in that book into account in drawing up this Guide.</p>
+<p>A very good resource for understanding all the technical, legal and social aspects of free software development is Karl Fogel’s book <a href="https://producingoss.com/en/index.html">Producing Open Source Software</a> (the 2017 edition, only available in an e-version, which can be freely consulted online).
+The book uses the term <em>open source</em>, which basically refers to the same range of projects as <em>free software</em>.
+(The proponents of both terms differ on their political and philosophical views, but the practical aspects we treat in this document are mostly shareable by both camps.)
+We have taken many of the practical recommendations in that book into account in drawing up this Guide.</p>
 </div>
 <div class="paragraph">
 <p>The Guide also contains lots of recommendations on service procurement.
-A good document for understanding the particular features of public procurement of free software is <a href="https://joinup.ec.europa.eu/document/guideline-public-procurement-open-source-software">Guideline on public procurement of Open Source Software</a>, published in 2010 by Rishab Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz and Abdelkrim Boujraf, and commissioned by the European Commission under the <a href="https://joinup.ec.europa.eu//">Join Up</a> initiative.</p>
+A good document for understanding the particular features of public procurement of free software in the context of the European Union is <a href="https://joinup.ec.europa.eu/document/guideline-public-procurement-open-source-software">Guideline on public procurement of Open Source Software</a>, published in 2010 by Rishab Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz and Abdelkrim Boujraf, and commissioned by the European Commission under the <a href="https://joinup.ec.europa.eu//">Join Up</a> initiative.</p>
 </div>
 </div>
 </div>
@@ -379,7 +368,7 @@ Likewise, they may operate as part of the same process or various processes.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>Publication</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Publish code from an existing own component</strong>: we have our own code, developed under previous contracts and never published, and we want to make it freely available in a public repository.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Publish code from an existing own component</strong>: we have our own code, developed under previous contracts and never publicly distributed, and we want to make it available in a public repository, under a free software license.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>Document</code></p></td>
@@ -613,10 +602,10 @@ As a general rule, we could say that technological projects go through the follo
 </div>
 </div>
 <div class="sect1">
-<h2 id="_open_development"><a class="anchor" href="#_open_development"></a>3. “Open” development</h2>
+<h2 id="_community_development"><a class="anchor" href="#_community_development"></a>3. Community development</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>In free software projects there is a culture of “working in the open”, as this facilitates the conditions that make them technically and financially sustainable.
+<p>In free software projects there is a culture of working in public eye, as this facilitates the conditions that make them technically and financially sustainable.
 Increasing the flow of resources to projects is in the interest of all projects, and it involves:</p>
 </div>
 <div class="ulist">
@@ -630,8 +619,7 @@ Increasing the flow of resources to projects is in the interest of all projects,
 </ul>
 </div>
 <div class="paragraph">
-<p>Outside this model, which is based on fostering collaboration, it is very difficult to reap the potential benefits offered by free software.
-There are two key elements in all this:</p>
+<p>Outside this model, which is based on fostering collaboration, it is very difficult to reap some of the potential benefits offered by free software, including:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -645,10 +633,14 @@ If there is to be real collaboration, transparency has to extend to all the comm
 In contrast to other, classical business models, the interest here lies in knowledge of the product, even the most technical details, being distributed as widely as possible.
 That reduces the technological risk and the City Council’s dependency on specific companies.</p>
 </li>
+<li>
+<p><strong>Community participation</strong>.
+This reinforces both the project, with more ideas and resources, and the local communities.</p>
+</li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Working in the open means the following elements should be publicly accessible in open formats (for reading) to anyone who is interested, so they do not have to use private tools and can do so anonymously (without having to register with any web service or much less having to hire for-payment services):</p>
+<p>Working in public eye means the following elements should be publicly accessible in free formats (for reading) to anyone who is interested, so they do not have to use private tools and can do so anonymously (without having to register with any web service or much less having to hire for-payment services):</p>
 </div>
 <div class="ulist">
 <ul>
@@ -670,7 +662,7 @@ That reduces the technological risk and the City Council’s dependency on speci
 </ul>
 </div>
 <div class="paragraph">
-<p>Working in the open does NOT (necessarily) mean that:</p>
+<p>Working in public eye does NOT (necessarily) mean that:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -682,7 +674,7 @@ That reduces the technological risk and the City Council’s dependency on speci
 Each project can choose its own QA policy.</p>
 </li>
 <li>
-<p>The project team has to read and respond to all defect notifications (if they are open to writing) and questions via the open communication channels.</p>
+<p>The project team has to read and respond to all defect notifications (if they are open to writing) and questions via the public communication channels.</p>
 </li>
 <li>
 <p>The project team has to check all the suggestions and contributions (pull requests and patches) they might receive, if it is felt the resources are better invested in another task.</p>
@@ -690,9 +682,9 @@ Each project can choose its own QA policy.</p>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_work_in_the_open_from_day_one"><a class="anchor" href="#_work_in_the_open_from_day_one"></a>3.1. Work “in the open” from day one</h3>
+<h3 id="_work_in_the_public_eye_from_day_one"><a class="anchor" href="#_work_in_the_public_eye_from_day_one"></a>3.1. Work in the public eye from day one</h3>
 <div class="paragraph">
-<p>A really important aspect to bear in mind is the longer you work in a closed project, the more difficult it will be to open it up later on.
+<p>A really important aspect to bear in mind is the longer you work in a closed, private environment, the more difficult it will be to open it up later on.
 If you wait too long, maybe some measures will never be implemented, because their cost would be prohibitive.
 The reasons for that can be summed up as follows:</p>
 </div>
@@ -703,8 +695,8 @@ The reasons for that can be summed up as follows:</p>
 In this Guide we explain how to make it clear what our commitments are, what we can achieve at each stage.</p>
 </li>
 <li>
-<p>It is impossible to compensate the incentives that developers have for doing things in a “quick and dirty” way, with future threats of opening up.
-If we do not work in the open from the start, we will inevitably incur a <a href="https://en.wikipedia.org/wiki/Technical_debt">technological debt</a> with the intention of fixing things in the future (that never comes).</p>
+<p>It is impossible to compensate the incentives that developers have for doing things in a “quick and dirty” way, with future threats of publication.
+If we do not work in public eye from the start, we will inevitably incur a <a href="https://en.wikipedia.org/wiki/Technical_debt">technological debt</a> with the intention of fixing things in the future (that never comes).</p>
 </li>
 <li>
 <p>When the day for “freeing the code” arrives, you suddenly find you have:</p>
@@ -734,7 +726,7 @@ If we do not work in the open from the start, we will inevitably incur a <a href
 </ul>
 </div>
 <div class="paragraph">
-<p>Opening up the code means having to take difficult decisions, which would not have arisen if it had been open from the start (wasting time cleaning up the defect log vs creating a new one and losing the entire log, etc.).</p>
+<p>Publishing the code means having to take difficult decisions, which would not have arisen if it had been in public eye from the start (wasting time cleaning up the defect log vs creating a new one and losing the entire log, etc.).</p>
 </div>
 <div class="paragraph">
 <p>It creates a big “publication milestone” which poses a high risk for the project, because lots of changes have to be made all at once.
@@ -835,10 +827,10 @@ They are all listed in the following table:</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procurement_for_open_development"><a class="anchor" href="#_procurement_for_open_development"></a>3.2. Procurement for open development</h3>
+<h3 id="_procurement_for_community_development"><a class="anchor" href="#_procurement_for_community_development"></a>3.2. Procurement for community development</h3>
 <div id="M_F60" class="dlist">
 <dl>
-<dt class="hdlist1">Measure: Award the contract to companies with experience in open development M_F60</dt>
+<dt class="hdlist1">Measure: Award the contract to companies with experience in community development M_F60</dt>
 <dd>
 <p>  tags: Procurement Adaptation Plugin NewProduct
  <br>
@@ -848,7 +840,7 @@ They are all listed in the following table:</p>
  <br>
   Establish the need for free software development experience as a condition of technical solvency.
  <br>
-  However many conditions are included in the contract, if the winning company has no experience of participating in free software projects, it is most likely that the product will end up not being completely open.
+  However many conditions are included in the contract, if the winning company has no experience of participating in free software projects, it is most likely that the product and the development process will end up not following many free software development conventions.
 In most cases, there is no reason why that should be the result of bad faith but a lack of knowledge.</p>
 </dd>
 </dl>
@@ -892,7 +884,7 @@ links incoming: None
 +
 links outgoing: None
 +
-They must do this by providing references for their individual participation in repositories and open forums (StackOverflow, etc.), from projects they have taken part in.
+They must do this by providing references for their individual participation in public repositories and forums (StackOverflow, etc.), from projects they have taken part in.
 +
 This can be done as a technical solvency criterion or a performance criterion,</p>
 </dd>
@@ -909,7 +901,7 @@ This can be done as a technical solvency criterion or a performance criterion,</
   Besides being a policy in line with the Guide for Technological Procurement, disseminating knowledge of the product is very favourable to the interests of the project.
 The <em>reservoirs of distributed knowledge</em> are one of the main strengths of free software projects.
  <br>
-  It also helps a great deal to ensure open development processes are established from the outset.</p>
+  It also helps a great deal to ensure community development processes are established from the outset.</p>
 </dd>
 <dt class="hdlist1">Recommendation: Reduce the financial stability requirements for tenders R_8BD</dt>
 <dd>
@@ -1329,7 +1321,7 @@ If there is no clear policy, we can subscribe to a well-known generic policy, su
 </div>
 </div>
 <div class="sect2">
-<h3 id="_use_open_formats_and_standards"><a class="anchor" href="#_use_open_formats_and_standards"></a>3.6. Use open formats and standards</h3>
+<h3 id="_use_free_formats_and_standards"><a class="anchor" href="#_use_free_formats_and_standards"></a>3.6. Use free formats and standards</h3>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Measure: Check the user interface meets W3C standards as regards web applications M_F7E</dt>
@@ -1342,7 +1334,7 @@ links outgoing: None
 +
 User interfaces, whether they are for public, administration or internal use, have to comply with World Wide Web Consortium (W3C) standards and should not require the use of features provided by privately owned browser extensions The presentation has to be displayed correctly and the product has to be fully functional, with the browsers of the family: Gecko (Firefox), WebKit/Blink (Chrome, Safari, Konqueror) or Trident/EdgeHTML (Microsoft).</p>
 </dd>
-<dt class="hdlist1">Measure: Use open formats in exchanging documents with the public and other systems M_676</dt>
+<dt class="hdlist1">Measure: Use free formats in exchanging documents with the public and other systems M_676</dt>
 <dd>
 <p>  tags: Adaptation Plugin NewProduct Publication
  <br>
@@ -1350,10 +1342,10 @@ User interfaces, whether they are for public, administration or internal use, ha
  <br>
   links outgoing: None
  <br>
-  Any exchange of documents with the public that involves downloading or uploading files has to be done exclusively with open formats, as defined by the Barcelona City Council ICT Procurement Guide.
+  Any exchange of documents with the public that involves downloading or uploading files has to be done exclusively with free formats, as defined by the Barcelona City Council ICT Procurement Guide.
 Internal document storage by the application will also be done in these same formats.
 In particular, all text file exchanges will either be in OpenDocument Format (<a href="https://www.oasis-open.org/">https://www.oasis-open.org</a>), or PDF format.
-Images, audio and video will also be exchanged by means of open formats for which free implementation exists in the main IT platforms including GNU/Linux.</p>
+Images, audio and video will also be exchanged by means of free formats for which free implementation exists in the main IT platforms including GNU/Linux.</p>
 </dd>
 </dl>
 </div>
@@ -1371,19 +1363,24 @@ Images, audio and video will also be exchanged by means of open formats for whic
   links outgoing: None
  <br>
   All the messages shown to users have to be internationalised.
-Use the usual mechanisms in each language/platform.</p>
+Use the usual mechanisms in each language/platform.
+ <br>
+  The standard tool for multi-lingual messages in free software projects is <a href="https://www.gnu.org/software/gettext/"><code>gettext</code></a>.</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_freeing_software_that_was_initially_closed"><a class="anchor" href="#_freeing_software_that_was_initially_closed"></a>3.8. Freeing software that was initially closed</h3>
+<h3 id="_freeing_software_that_was_proprietary"><a class="anchor" href="#_freeing_software_that_was_proprietary"></a>3.8. Freeing software that was proprietary</h3>
 <div class="paragraph">
-<p>This section will explain how to prepare software that was closed source so it can be developed and kept free once the decision to release it has been taken.</p>
+<p>The City Council owns the copyright of a lot of code that was not provided under a free software license, and it is therefore proprietary software.</p>
+</div>
+<div class="paragraph">
+<p>This section addresses those issues that specifically affect the public release under a free license of software components that were not delivered as free software, and in most cases developed without public distribution in mind.</p>
 </div>
 <div class="dlist">
 <dl>
-<dt class="hdlist1">Measure: Judge whether it is convenient or not to publish City Council software M_932</dt>
+<dt class="hdlist1">Measure: Judge whether it is convenient or not to publicly distribute some City Council software M_932</dt>
 <dd>
 <p>tags: Publication
 +
@@ -1426,7 +1423,7 @@ links incoming: None
 +
 links outgoing: None</p>
 </dd>
-<dt class="hdlist1">Measure: Advise new public spaces geared towards developers that this was a closed project M_B77</dt>
+<dt class="hdlist1">Measure: Notify in new public spaces geared towards developers that this was a non-free project M_B77</dt>
 <dd>
 <p>  tags: Publication
  <br>
@@ -1434,7 +1431,7 @@ links outgoing: None</p>
  <br>
   links outgoing: None
  <br>
-  This means explaining that, up to a certain date, the project operated as a closed project, so some inconvenience is to be expected.
+  This means explaining that, up to a certain date, the project did not operate in the public eye, so some inconvenience is to be expected.
 Developer and user expectations regarding the quality and transparency of some aspects of the project need to be lowered.
 The commitments made to make it possible to free the code also need explaining.
 For example, there may be lots of sensitive data in the code repository (specific user data, etcetera) so it has been decided to remove the version control history and create a new top-skim repository that only contains the latest version.
@@ -1443,7 +1440,7 @@ For example, there may be lots of sensitive data in the code repository (specifi
 <div class="ulist">
 <ul>
 <li>
-<p>The development website (now open and public).</p>
+<p>The development website (now public).</p>
 </li>
 <li>
 <p>Public mail lists.</p>
@@ -1458,7 +1455,7 @@ For example, there may be lots of sensitive data in the code repository (specifi
 </div>
 <div class="dlist">
 <dl>
-<dt class="hdlist1">Recommendation: Warn developers of the possible consequences of the project’s imminent release R_70F</dt>
+<dt class="hdlist1">Recommendation: Warn developers of the possible consequences of the project’s imminent public release R_70F</dt>
 <dd>
 <p>  tags: Publication
  <br>
@@ -1466,7 +1463,7 @@ For example, there may be lots of sensitive data in the code repository (specifi
  <br>
   links outgoing: None
  <br>
-  If we have a way of contacting people who have participated or who are participating in a project we are going to release, for example, by means of private emails, it is worth informing them of this fact.
+  If we have a way of contacting people who have participated or who are participating in a project we are going to release, for example, by means of private emails, it is worth informing them (not negotiating) of this fact.
 Freeing a code that was not initially written to be free software might make its authors uncomfortable, so we need to explain that that’s normal.
 The following work can be referred to, to help clarify the situation: <a href="http://producingoss.com/en/opening-closed-projects.html" class="bare">http://producingoss.com/en/opening-closed-projects.html</a>.</p>
 </dd>
@@ -2217,7 +2214,7 @@ If the people behind a product can be contacted, it engenders confidence in the 
 <div class="sect2">
 <h3 id="_look_for_and_select_free_software_components"><a class="anchor" href="#_look_for_and_select_free_software_components"></a>5.1. Look for and select free software components</h3>
 <div class="paragraph">
-<p>In all likelihood, unless our need is very specialised, there will already be an open solution (or combination of solutions) that would solve the problem, at least partly.</p>
+<p>In all likelihood, unless our need is very specialised, there will already be a free software solution (or combination of solutions) that would solve the problem, at least partly.</p>
 </div>
 <div class="paragraph">
 <p>It is important to bear in mind that free software projects offer more possibilities of being transformed and adapted to our needs than traditional applications.</p>
@@ -2715,10 +2712,10 @@ need to be deleted:
 <p>Any with a proprietary licence.</p>
 </li>
 <li>
-<p>Any that are owned by Barcelona City Council but cannot be opened for the moment.</p>
+<p>Any that are owned by Barcelona City Council but cannot be freed for the moment.</p>
 </li>
 <li>
-<p>Any that show any kind of licence incompatibility with the other product components to be opened.</p>
+<p>Any that show any kind of licence incompatibility with the other product components to be freed.</p>
 </li>
 <li>
 <p>Any that cannot be installed in a free software operating system.</p>
@@ -2980,7 +2977,7 @@ Aside from any technical knowledge they might have, they could bring:
  <br>
   That includes:
  <br>
-  Clearly describing the collaborative tasks the contract winner is expected to take part in and explain that this is part of the budget, as described in the #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Measure: Budget for the extra costs of participating in the open community of the product to be modified].
+  Clearly describing the collaborative tasks the contract winner is expected to take part in and explain that this is part of the budget, as described in the #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Measure: Budget for the extra costs of participating in the community of the product to be modified].
  <br>
   The contract winner accepting and applying the Developer Guidelines, the rules for drafting documentation and the Code of Conduct for the project, if there is one, as well as other written documents governing any rules that might exist, both general and the specific rules for specific communication channels.
 Should the project not have a formal set of internal rules of its own, normal rules of netiquette will apply.
@@ -3007,7 +3004,7 @@ Should the project not have a formal set of internal rules of its own, normal ru
   A high turnover is detrimental to any project but especially when participating in free software projects.
 Developers who leave not only take with them any technical knowledge they might have accumulated, but also their status in the community and the human relationships they might have developed.</p>
 </dd>
-<dt class="hdlist1">Measure: Budget for the extra costs of participating in the open community of the product to be modified M_83F</dt>
+<dt class="hdlist1">Measure: Budget for the extra costs of participating in the community of the product to be modified M_83F</dt>
 <dd>
 <p>  tags: Procurement Adaptation Plugin
  <br>
@@ -3340,7 +3337,7 @@ In this case copyright must be assigned by contract, either directly to the corr
 <p>Software components are for general use, including companies and not just public authorities.</p>
 </div>
 <div class="paragraph">
-<p>The supplier is a company or a cooperative with a track record of publishing free software and running open communities, and which has a credible strategy for exploiting the product based on free software licences.</p>
+<p>The supplier is a company or a cooperative with a track record of publishing free software and running free software communities, and which has a credible strategy for exploiting the product based on free software licences.</p>
 </div>
 </div>
 </div>
@@ -3665,7 +3662,7 @@ It cannot have an extension if it is written in plain text, or it can have an ex
   The content of this file (more specifically the version posted in the <code>master</code> branch), formatted according to the conventions of the markup language used, is what <span class="line-through">GitHub</span> Gitlab and similar software shows as the development website&#8217;s home page.
 So it is important to check the format is correct and that it appears correctly in a browser.</p>
 </dd>
-<dt class="hdlist1">Measure: Use wiki formats or open markup formats for all product documentation M_66D</dt>
+<dt class="hdlist1">Measure: Use wiki formats or free markup formats for all product documentation M_66D</dt>
 <dd>
 <p>  tags: Integration Plugin NewProduct Publication
  <br>
