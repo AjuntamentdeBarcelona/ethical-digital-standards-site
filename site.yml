@@ -17,6 +17,8 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-en.git
+    branches: [master]
 asciidoc:
   attributes:
     xrefstyle: short
