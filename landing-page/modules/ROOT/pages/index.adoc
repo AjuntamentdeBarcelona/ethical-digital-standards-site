@@ -10,3 +10,4 @@ The following documents are subject to modification in the following weeks or mo
 * xref:ict-procurement:ROOT:context.adoc[ICT Public Procurement Guide]
 * xref:innovative-procurement:ROOT:innovating.adoc[Innovative Public Procurement Guide]
 * xref:agile-methodologies:ROOT:introduction.adoc[Agile Methodologies Guide]
+* xref:ethical-management-data:ROOT:summary.adoc[Government measure concerning ethical management and accountable data: Barcelona Data Commons]
