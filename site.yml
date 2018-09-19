@@ -9,19 +9,21 @@ content:
   - url: https://github.com/AjuntamentDeBarcelona/ethical-digital-standards-site.git
     branches: [master]
     start_path: landing-page
-  - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-en.git
-    branches: [master]
-  - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en.git
-    branches: [master]
-  - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en.git
-    branches: [master]
-  - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-en.git
+  - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/ethical-management-data-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines.gm.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-en.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/innovative-procurement-bcn-en.git
     branches: [master]
-  - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-en.git
+  - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en.git
     branches: [master]
 asciidoc:
   attributes:
