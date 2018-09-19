@@ -1,2 +1,4 @@
 .cache/
+workspace/
 build/
+site-local.yml
