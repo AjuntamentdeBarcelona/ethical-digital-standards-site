@@ -5,10 +5,11 @@
 WARNING: This is a work in progress.
 The following documents are subject to modification in the following weeks or months.
 
-* xref:tech-practices:ROOT:aim-and-scope.adoc[Code of Technological Practices]
+* Digital Services Standards
+* xref:tech-practices:ROOT:aim-and-scope.adoc[Technology Code of Practice]
 * xref:tech-sovereignty:ROOT:introduction.adoc[Technological Sovereignty Guide]
 * xref:free-soft:ROOT:introduction.adoc[Free Software Management Guidelines]
-* xref:ict-procurement:ROOT:context.adoc[ICT Public Procurement Guide]
-* xref:innovative-procurement:ROOT:innovating.adoc[Innovative Public Procurement Guide]
 * xref:agile-methodologies:ROOT:introduction.adoc[Agile Methodologies Guide]
-* xref:ethical-management-data:ROOT:summary.adoc[Government measure concerning ethical management and accountable data: Barcelona Data Commons]
+* xref:ict-procurement:ROOT:context.adoc[ICT Procurement Handbook]
+* xref:innovative-procurement:ROOT:innovating.adoc[Innovative Public Procurement Guide]
+* xref:data-management:ROOT:summary.adoc[Ethical Data Management Guide]
