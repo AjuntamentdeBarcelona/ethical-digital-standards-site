@@ -1,4 +1,5 @@
 = List of Standards
+:page-layout: landing
 :icons: font
 
 WARNING: This is a work in progress.
