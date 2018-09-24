@@ -35,5 +35,5 @@ asciidoc:
 #     sectnums: ~
 ui:
   bundle:
-    url: https://gitlab.com/gmarpons/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/gmarpons/ethical-digital-standards-ui/releases/download/latest/ui-bundle.zip
     snapshot: true
