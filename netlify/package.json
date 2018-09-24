@@ -1,0 +1,8 @@
+{
+  "name": "decidim-docs-site",
+  "private": true,
+  "devDependencies": {
+    "@antora/cli": "1.1.1",
+    "@antora/site-generator-default": "1.1.1"
+  }
+}

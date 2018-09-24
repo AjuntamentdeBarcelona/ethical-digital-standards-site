@@ -2,3 +2,4 @@
 workspace/
 build/
 site-local.yml
+netlify/yarn.lock
