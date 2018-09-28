@@ -1,8 +1,8 @@
 runtime:
   cache_dir: ./.cache/antora
 site:
-  title: Ethical Digital Standards BCN
-  url: https://ajuntamentdebarcelona.github.io/ethical-digital-standards-site
+  title: Ethical Digital Standards
+  url: ethical-digital-standards-site.netlify.com
   start_page: init:ROOT:index.adoc
 content:
   sources:
@@ -28,8 +28,8 @@ content:
 asciidoc:
   attributes:
     xrefstyle: short
-#     idprefix: ''
-#     idseparator: '-'
+    idprefix: ''
+    idseparator: '-'
 #     linkattrs: ''
 #     toc: ~
 #     sectnums: ~
