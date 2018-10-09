@@ -11,6 +11,8 @@ content:
     start_path: landing-page
   - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-en.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-en.git

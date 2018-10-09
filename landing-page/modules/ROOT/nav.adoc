@@ -1,4 +1,4 @@
-* Digital Services Standards
+* xref:digital-services:ROOT:index.adoc[Digital Service Standards]
 * xref:tech-practices:ROOT:aim-and-scope.adoc[Technology Code of Practice]
 * xref:tech-sovereignty:ROOT:introduction.adoc[Technological Sovereignty]
 * xref:free-soft:ROOT:introduction.adoc[Free Software Management]
