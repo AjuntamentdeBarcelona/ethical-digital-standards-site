@@ -50,20 +50,26 @@
   force = false
 
 [[redirects]]
-  from = "/glossary/"
-  to = "/glossary/glossary.html"
-  status = 301
-  force = false
-
-[[redirects]]
   from = "/data-management/"
   to = "/data-management/summary.html"
   status = 301
   force = false
 
 [[redirects]]
+  from = "/digital-services/"
+  to = "/digital-services/index.html"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/free-soft/"
   to = "/free-soft/introduction.html"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/glossary/"
+  to = "/glossary/glossary.html"
   status = 301
   force = false
 
@@ -114,20 +120,26 @@
   force = false
 
 [[redirects]]
-  from = "/glossary/*"
-  to = "/glossary/0.1/:splat"
-  status = 301
-  force = false
-
-[[redirects]]
   from = "/data-management/*"
   to = "/data-management/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
+  from = "/digital-services/*"
+  to = "/digital-services/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/free-soft/*"
   to = "/free-soft/0.2/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/glossary/*"
+  to = "/glossary/0.1/:splat"
   status = 301
   force = false
 
