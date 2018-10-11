@@ -37,5 +37,5 @@ asciidoc:
 #     sectnums: ~
 ui:
   bundle:
-    url: https://github.com/gmarpons/ethical-digital-standards-ui/releases/download/latest/ui-bundle.zip
+    url: https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-ui/releases/download/latest/ui-bundle.zip
     snapshot: true
