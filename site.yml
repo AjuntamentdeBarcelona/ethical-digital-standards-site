@@ -32,9 +32,6 @@ asciidoc:
     xrefstyle: short
     idprefix: ''
     idseparator: '-'
-#     linkattrs: ''
-#     toc: ~
-#     sectnums: ~
 ui:
   bundle:
     url: https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-ui/releases/download/latest/ui-bundle.zip
