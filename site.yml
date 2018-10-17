@@ -2,7 +2,7 @@ runtime:
   cache_dir: ./.cache/antora
 site:
   title: Ethical Digital Standards
-  url: ethical-digital-standards-site.netlify.com
+  url: ethical-digital-standards-bcn.netlify.com
   start_page: init:ROOT:index.adoc
 content:
   sources:
