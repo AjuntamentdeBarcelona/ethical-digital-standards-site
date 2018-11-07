@@ -27,6 +27,8 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-ca.git
+    branches: [master]
 asciidoc:
   attributes:
     xrefstyle: short
