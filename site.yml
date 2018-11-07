@@ -38,3 +38,5 @@ ui:
   bundle:
     url: https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-ui/releases/download/latest/ui-bundle.zip
     snapshot: true
+output:
+  dir: ./build/site/digitalstandards

@@ -15,28 +15,28 @@
 # Redirections for component 'init'
 
 [[redirects]]
-  from = "/index.html"
-  to = "/init/index.html?annotate=:annotate"
+  from = "/digitalstandards/index.html"
+  to = "/digitalstandards/init/index.html?annotate=:annotate"
   query = { annotate = ":annotate" }
   status = 301
   force = false
 
 [[redirects]]
-  from = "/index.html"
-  to = "/init/index.html"
+  from = "/digitalstandards/index.html"
+  to = "/digitalstandards/init/index.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/"
-  to = "/init/index.html?annotate=:annotate"
+  from = "/digitalstandards/"
+  to = "/digitalstandards/init/index.html?annotate=:annotate"
   query = { annotate = ":annotate" }
   status = 301
   force = false
 
 [[redirects]]
-  from = "/"
-  to = "/init/index.html"
+  from = "/digitalstandards/"
+  to = "/digitalstandards/init/index.html"
   status = 301
   force = false
 
@@ -44,56 +44,56 @@
 # Redirections for other components
 
 [[redirects]]
-  from = "/agile-methodologies/"
-  to = "/agile-methodologies/introduction.html"
+  from = "/digitalstandards/agile-methodologies/"
+  to = "/digitalstandards/agile-methodologies/introduction.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/data-management/"
-  to = "/data-management/summary.html"
+  from = "/digitalstandards/data-management/"
+  to = "/digitalstandards/data-management/summary.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digital-services/"
-  to = "/digital-services/index.html"
+  from = "/digitalstandards/digital-services/"
+  to = "/digitalstandards/digital-services/index.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/free-soft/"
-  to = "/free-soft/introduction.html"
+  from = "/digitalstandards/free-soft/"
+  to = "/digitalstandards/free-soft/introduction.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/glossary/"
-  to = "/glossary/glossary.html"
+  from = "/digitalstandards/glossary/"
+  to = "/digitalstandards/glossary/glossary.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/ict-procurement/"
-  to = "/ict-procurement/context.html"
+  from = "/digitalstandards/ict-procurement/"
+  to = "/digitalstandards/ict-procurement/context.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/innovative-procurement/"
-  to = "/innovative-procurement/innovating.html"
+  from = "/digitalstandards/innovative-procurement/"
+  to = "/digitalstandards/innovative-procurement/innovating.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/tech-practices/"
-  to = "/tech-practices/aim-and-scope.html"
+  from = "/digitalstandards/tech-practices/"
+  to = "/digitalstandards/tech-practices/aim-and-scope.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/tech-sovereignty/"
-  to = "/tech-sovereignty/introduction.html"
+  from = "/digitalstandards/tech-sovereignty/"
+  to = "/digitalstandards/tech-sovereignty/introduction.html"
   status = 301
   force = false
 
@@ -101,68 +101,68 @@
 # Redirections to latest version of each component
 
 [[redirects]]
-  from = "/init/index.html"
-  to = "/init/0.1/index.html?annotate=:annotate"
+  from = "/digitalstandards/init/index.html"
+  to = "/digitalstandards/init/0.1/index.html?annotate=:annotate"
   query = { annotate = ":annotate" }
   status = 301
   force = false
 
 [[redirects]]
-  from = "/init/index.html"
-  to = "/init/0.1/index.html"
+  from = "/digitalstandards/init/index.html"
+  to = "/digitalstandards/init/0.1/index.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/agile-methodologies/*"
-  to = "/agile-methodologies/0.1/:splat"
+  from = "/digitalstandards/agile-methodologies/*"
+  to = "/digitalstandards/agile-methodologies/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/data-management/*"
-  to = "/data-management/0.1/:splat"
+  from = "/digitalstandards/data-management/*"
+  to = "/digitalstandards/data-management/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digital-services/*"
-  to = "/digital-services/0.1/:splat"
+  from = "/digitalstandards/digital-services/*"
+  to = "/digitalstandards/digital-services/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/free-soft/*"
-  to = "/free-soft/0.2/:splat"
+  from = "/digitalstandards/free-soft/*"
+  to = "/digitalstandards/free-soft/0.2/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/glossary/*"
-  to = "/glossary/0.1/:splat"
+  from = "/digitalstandards/glossary/*"
+  to = "/digitalstandards/glossary/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/ict-procurement/*"
-  to = "/ict-procurement/0.1/:splat"
+  from = "/digitalstandards/ict-procurement/*"
+  to = "/digitalstandards/ict-procurement/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/innovative-procurement/*"
-  to = "/innovative-procurement/0.1/:splat"
+  from = "/digitalstandards/innovative-procurement/*"
+  to = "/digitalstandards/innovative-procurement/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/tech-practices/*"
-  to = "/tech-practices/0.1/:splat"
+  from = "/digitalstandards/tech-practices/*"
+  to = "/digitalstandards/tech-practices/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/tech-sovereignty/*"
-  to = "/tech-sovereignty/0.1/:splat"
+  from = "/digitalstandards/tech-sovereignty/*"
+  to = "/digitalstandards/tech-sovereignty/0.1/:splat"
   status = 301
   force = false
