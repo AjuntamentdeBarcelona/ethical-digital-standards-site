@@ -1,0 +1,4 @@
+= Lista de estándares
+:page-lang: es
+:page-layout: landing
+:icons: font

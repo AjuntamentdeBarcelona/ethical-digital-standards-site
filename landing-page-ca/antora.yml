@@ -1,5 +1,5 @@
-name: init
-title: List of Standards
+name: ca/init
+title: Llista d'estàndards
 version: 0.1
 start_page: ROOT:index.adoc
 nav:

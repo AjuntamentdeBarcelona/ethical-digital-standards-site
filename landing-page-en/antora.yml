@@ -1,0 +1,6 @@
+name: en/init
+title: List of Standards
+version: 0.1
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc

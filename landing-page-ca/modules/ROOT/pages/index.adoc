@@ -1,0 +1,4 @@
+= Llista d'estàndards
+:page-lang: ca
+:page-layout: landing
+:icons: font

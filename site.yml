@@ -3,12 +3,18 @@ runtime:
 site:
   title: Ethical Digital Standards
   url: ethical-digital-standards-bcn.netlify.com
-  start_page: init:ROOT:index.adoc
+  start_page: en/init:ROOT:index.adoc
 content:
   sources:
   - url: https://github.com/AjuntamentDeBarcelona/ethical-digital-standards-site.git
     branches: [master]
-    start_path: landing-page
+    start_path: landing-page-en
+  - url: https://github.com/AjuntamentDeBarcelona/ethical-digital-standards-site.git
+    branches: [master]
+    start_path: landing-page-ca
+  - url: https://github.com/AjuntamentDeBarcelona/ethical-digital-standards-site.git
+    branches: [master]
+    start_path: landing-page-es
   - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-en.git
