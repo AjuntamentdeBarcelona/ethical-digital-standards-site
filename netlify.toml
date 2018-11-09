@@ -15,29 +15,68 @@
 
 # Redirections for component 'init'
 
-[[redirects]]
-  from = "/digitalstandards/index.html"
-  to = "/digitalstandards/init/index.html?annotate=:annotate"
-  query = { annotate = ":annotate" }
-  status = 301
-  force = false
+# [[redirects]]
+#   from = "/digitalstandards/*/index.html"
+#   to = "/digitalstandards/:splat/init/index.html?annotate=:annotate"
+#   query = { annotate = ":annotate" }
+#   status = 301
+#   force = false
 
-[[redirects]]
-  from = "/digitalstandards/index.html"
-  to = "/digitalstandards/init/index.html"
-  status = 301
-  force = false
+# [[redirects]]
+#   from = "/digitalstandards/*/index.html"
+#   to = "/digitalstandards/:splat/init/index.html"
+#   status = 301
+#   force = false
+
+# [[redirects]]
+#   from = "/digitalstandards/"
+#   to = "/digitalstandards/en/init/index.html?annotate=:annotate"
+#   query = { annotate = ":annotate" }
+#   status = 301
+#   force = false
 
 [[redirects]]
   from = "/digitalstandards/"
-  to = "/digitalstandards/init/index.html?annotate=:annotate"
-  query = { annotate = ":annotate" }
+  to = "/digitalstandards/en/init/index.html"
   status = 301
   force = false
 
+# [[redirects]]
+#   from = "/digitalstandards/ca/"
+#   to = "/digitalstandards/ca/init/index.html?annotate=:annotate"
+#   query = { annotate = ":annotate" }
+#   status = 301
+#   force = false
+
 [[redirects]]
-  from = "/digitalstandards/"
-  to = "/digitalstandards/init/index.html"
+  from = "/digitalstandards/ca/"
+  to = "/digitalstandards/ca/init/index.html"
+  status = 301
+  force = false
+
+# [[redirects]]
+#   from = "/digitalstandards/en/"
+#   to = "/digitalstandards/en/init/index.html?annotate=:annotate"
+#   query = { annotate = ":annotate" }
+#   status = 301
+#   force = false
+
+[[redirects]]
+  from = "/digitalstandards/en/"
+  to = "/digitalstandards/en/init/index.html"
+  status = 301
+  force = false
+
+# [[redirects]]
+#   from = "/digitalstandards/es/"
+#   to = "/digitalstandards/es/init/index.html?annotate=:annotate"
+#   query = { annotate = ":annotate" }
+#   status = 301
+#   force = false
+
+[[redirects]]
+  from = "/digitalstandards/es/"
+  to = "/digitalstandards/es/init/index.html"
   status = 301
   force = false
 
@@ -57,8 +96,8 @@
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/digital-services/"
-  to = "/digitalstandards/digital-services/index.html"
+  from = "/digitalstandards/*/digital-services/"
+  to = "/digitalstandards/:splat/digital-services/index.html"
   status = 301
   force = false
 
@@ -101,16 +140,22 @@
 
 # Redirections to latest version of each component
 
+# [[redirects]]
+#   from = "/digitalstandards/*/init/index.html"
+#   to = "/digitalstandards/:splat/init/0.1/index.html?annotate=:annotate"
+#   query = { annotate = ":annotate" }
+#   status = 301
+#   force = false
+
 [[redirects]]
-  from = "/digitalstandards/init/index.html"
-  to = "/digitalstandards/init/0.1/index.html?annotate=:annotate"
-  query = { annotate = ":annotate" }
+  from = "/digitalstandards/ca/init/*"
+  to = "/digitalstandards/ca/init/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/init/index.html"
-  to = "/digitalstandards/init/0.1/index.html"
+  from = "/digitalstandards/en/init/*"
+  to = "/digitalstandards/en/init/0.1/:splat"
   status = 301
   force = false
 
@@ -127,8 +172,14 @@
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/digital-services/*"
-  to = "/digitalstandards/digital-services/0.1/:splat"
+  from = "/digitalstandards/ca/digital-services/*"
+  to = "/digitalstandards/ca/digital-services/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/en/digital-services/*"
+  to = "/digitalstandards/en/digital-services/0.1/:splat"
   status = 301
   force = false
 
@@ -157,13 +208,25 @@
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/tech-practices/*"
-  to = "/digitalstandards/tech-practices/0.1/:splat"
+  from = "/digitalstandards/ca/tech-practices/*"
+  to = "/digitalstandards/ca/tech-practices/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/tech-sovereignty/*"
-  to = "/digitalstandards/tech-sovereignty/0.1/:splat"
+  from = "/digitalstandards/en/tech-practices/*"
+  to = "/digitalstandards/en/tech-practices/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/ca/tech-sovereignty/*"
+  to = "/digitalstandards/ca/tech-sovereignty/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/en/tech-sovereignty/*"
+  to = "/digitalstandards/en/tech-sovereignty/0.1/:splat"
   status = 301
   force = false
