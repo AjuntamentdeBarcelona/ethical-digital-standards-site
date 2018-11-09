@@ -160,6 +160,12 @@
   force = false
 
 [[redirects]]
+  from = "/digitalstandards/es/init/*"
+  to = "/digitalstandards/es/init/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/digitalstandards/agile-methodologies/*"
   to = "/digitalstandards/agile-methodologies/0.1/:splat"
   status = 301
@@ -204,6 +210,12 @@
 [[redirects]]
   from = "/digitalstandards/innovative-procurement/*"
   to = "/digitalstandards/innovative-procurement/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/manifesto/*"
+  to = "/digitalstandards/manifesto/0.1/:splat"
   status = 301
   force = false
 
