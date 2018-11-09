@@ -1,5 +1,5 @@
-* xref:digital-services:ROOT:index.adoc[Digital Service Standards]
-* xref:tech-practices:ROOT:aim-and-scope.adoc[Technology Code of Practice]
+* xref:en/digital-services:ROOT:index.adoc[Digital Service Standards]
+* xref:en/tech-practices:ROOT:aim-and-scope.adoc[Technology Code of Practice]
 * xref:en/tech-sovereignty:ROOT:introduction.adoc[Technological Sovereignty]
 * xref:free-soft:ROOT:introduction.adoc[Free Software Management]
 * xref:agile-methodologies:ROOT:introduction.adoc[Agile Methodologies]
