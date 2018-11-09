@@ -80,6 +80,12 @@
   status = 301
   force = false
 
+[[redirects]]
+  from = "/digitalstandards/*/init/"
+  to = "/digitalstandards/:splat/init/index.html"
+  status = 301
+  force = false
+
 
 # Redirections for other components
 
@@ -126,14 +132,14 @@
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/tech-practices/"
-  to = "/digitalstandards/tech-practices/aim-and-scope.html"
+  from = "/digitalstandards/*/tech-practices/"
+  to = "/digitalstandards/:splat/tech-practices/aim-and-scope.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/tech-sovereignty/"
-  to = "/digitalstandards/tech-sovereignty/introduction.html"
+  from = "/digitalstandards/*/tech-sovereignty/"
+  to = "/digitalstandards/:splat/tech-sovereignty/introduction.html"
   status = 301
   force = false
 
