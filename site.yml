@@ -6,34 +6,42 @@ site:
   start_page: en/init:ROOT:index.adoc
 content:
   sources:
-  - url: https://github.com/AjuntamentDeBarcelona/ethical-digital-standards-site.git
-    branches: [master]
-    start_path: landing-page-en
-  - url: https://github.com/AjuntamentDeBarcelona/ethical-digital-standards-site.git
-    branches: [master]
+  - url: .
+    branches: [HEAD]
     start_path: landing-page-ca
-  - url: https://github.com/AjuntamentDeBarcelona/ethical-digital-standards-site.git
-    branches: [master]
+  - url: .
+    branches: [HEAD]
+    start_path: landing-page-en
+  - url: .
+    branches: [HEAD]
     start_path: landing-page-es
   - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-ca.git
+    branches: [master]
   - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-ca.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-en.git
     branches: [master]
-  # - url: https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-en.git
-  #   branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-es.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-en.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/innovative-procurement-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-ca.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-en.git
     branches: [master]
-  - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en.git
-    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-ca.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en.git
     branches: [master]
 asciidoc:
   attributes:
