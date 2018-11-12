@@ -1,5 +1,6 @@
 = List of Standards
-:page-lang: en
+:lang: en
+:page-lang: {lang}
 :page-layout: landing
 :icons: font
 

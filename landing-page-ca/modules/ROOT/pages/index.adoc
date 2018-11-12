@@ -1,4 +1,5 @@
 = Llista d'estàndards
-:page-lang: ca
+:lang: ca
+:page-lang: {lang}
 :page-layout: landing
 :icons: font
