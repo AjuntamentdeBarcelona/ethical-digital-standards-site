@@ -1,7 +1,0 @@
-{
-  "name": "ethical-digital-standards-site-bcn",
-  "private": true,
-  "devDependencies": {
-    "i18n-js": "^3.1.0"
-  }
-}
