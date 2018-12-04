@@ -3,6 +3,6 @@
 * xref:ca/tech-sovereignty:ROOT:introduction.adoc[Sobirania tecnològica]
 * xref:en/free-soft:ROOT:introduction.adoc[Free Software Management]
 * xref:en/agile-methodologies:ROOT:introduction.adoc[Agile Methodologies]
-* xref:en/ict-procurement:ROOT:context.adoc[ICT Procurement]
+* xref:ca/ict-procurement:ROOT:context.adoc[Compra pública TIC]
 * xref:en/innovative-procurement:ROOT:innovating.adoc[Innovative Public Procurement]
 * xref:en/data-management:ROOT:summary.adoc[Ethical Data Management]

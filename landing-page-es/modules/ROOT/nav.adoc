@@ -1,6 +1,6 @@
-* xref:en/digital-services:ROOT:index.adoc[Digital Service Standards]
+* xref:es/digital-services:ROOT:index.adoc[Estándars de servicios digitales]
 * xref:en/tech-practices:ROOT:aim-and-scope.adoc[Technology Code of Practice]
-* xref:en/tech-sovereignty:ROOT:introduction.adoc[Technological Sovereignty]
+* xref:es/tech-sovereignty:ROOT:introduction.adoc[Soberanía tecnológica]
 * xref:en/free-soft:ROOT:introduction.adoc[Free Software Management]
 * xref:en/agile-methodologies:ROOT:introduction.adoc[Agile Methodologies]
 * xref:en/ict-procurement:ROOT:context.adoc[ICT Procurement]

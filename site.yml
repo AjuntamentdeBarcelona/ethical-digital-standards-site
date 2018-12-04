@@ -21,6 +21,8 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-es.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-ca.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-en.git
@@ -30,6 +32,8 @@ content:
   - url: https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-ca.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-en.git
     branches: [master]
@@ -42,6 +46,8 @@ content:
   - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-ca.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-es.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-manifesto-bcn-en.git
     branches: [master]
