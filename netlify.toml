@@ -220,7 +220,7 @@
 
 [[redirects]]
   from = "/digitalstandards/manifesto/*"
-  to = "/digitalstandards/manifesto/0.1/:splat"
+  to = "/digitalstandards/manifesto/0.2/:splat"
   status = 301
   force = false
 
