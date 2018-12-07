@@ -1,1 +1,105 @@
-= Ethical Digital Standards BCN
+= Ethical Digital Standards
+:toc: macro
+:_license: Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)
+
+This is the main source repository for the site https://www.barcelona.cat/digitalstandards/.
+
+The site contains a number of documents defining open source Policy Toolkit for cities to develop digital policies that put citizens at the center and make Governments more open, transparent, and collaborative. 
+
+The site is generated with the static site generator https://antora.org[*Antora*].
+Antora takes a set of documentation https://docs.antora.org/antora/1.1/component-structure/[_components_] written in https://asciidoctor.org/docs/what-is-asciidoc[AsciiDoc] and combines them to generate the site.
+This composition is defined in the so-called https://docs.antora.org/antora/1.1/playbook/[Antora's _playbook_ file], named link:./site.yml[`site.yml`] in this repository.
+It provides Antora with the site URL, list of documentation components and their locations, site UI location, global AsciiDoc attributes, and some other configuration.
+
+toc::[]
+
+== Forking and contributing
+
+The site generated from this repository and the documents it contains can be forked, adapted, and reused under the conditions of the {_license} license.
+
+We--the maintainers of this project and the City of Barcelona--value your input, enjoy feedback and welcome improvements to our free software projects and documentation.
+For more details see the link:./CONTRIBUTING.adoc[CONTRIBUTING] file at the root of this repository.
+
+[#repo-list]
+== Repositories involved in the generation of the site
+
+A number of Git repositories are involved in the generation of the site:
+
+* This repository. It contains:
+** The playbook file: `site.yml`.
+** The landing page for the site. There is an Antora component for each language (CA, EN, ES) in directories `landing-page-{lang}`.
+** Configuration for deployment with Netlify.
+
+* The UI repo.
+An Antora UI is a repository containing all the presentation elements for the site (templates to generate HTML from AsciiDoc files, CSS, icons, and JavaScript snippets).
+Our UI can be found at https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-ui.
+
+* Documentation repos.
+Every repository contains a different Antora component, and every component has a document in one of the supported languages.
+** https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-en
+** https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-ca
+** https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-en
+** https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-es
+** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-ca
+** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-en
+** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-es
+** https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-en
+** https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en
+** https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-ca
+** https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-en
+** https://github.com/AjuntamentDeBarcelona/innovative-procurement-bcn-en
+** https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-ca
+** https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-en
+** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-ca
+** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en
+** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-es
+** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-manifesto-bcn-en
+
+== Deploy the site
+
+The site is automatically built and deployed by Netlify whenever a push is run on branch `master` of *this* repository.
+
+[IMPORTANT]
+If you change an existing document, those changes are not automatically deployed and you need to fire a manual deploy from Netlify.
+
+If you want to test some change (in the documents or in the configuration), use a Pull Request.
+Every Pull Request in this or another repository is automatically followed (can take some time) by a testing deploy you can use to check that everything is OK.
+
+== Test the site running Antora locally
+
+In the simplest case, to build the site locally you only need to https://docs.antora.org/antora/1.1/install/install-antora/[install Antora] and clone this repository.
+From the root of the repo, run:
+
+[source, shell]
+----
+antora --stacktrace --pull --html-url-extension-style=indexify site.yml
+----
+
+This is the same command that Netlify runs during deploy.
+
+Antora, following the playbook in `site.yml`, will clone all the repositories containing documentation, and also download a file called `ui-bundle.zip` containing the UI.
+The static site is generated under directory `build/site/digitalstandards/` and can be browsed locally.
+
+[NOTE]
+TODO: either explain broken links and redirection workaround or fix them.
+
+=== Generate the site from locally cloned document repositories
+
+If instead of using content in online repositories you want to generate the site from locally cloned document repositories, you need to populate the `workspace` directory.
+
+Change to `workspace` and clone there all the repositories in section <<repo-list>>.
+Then run the same command above but using file `site-local.yml` instead of `site.yml`.
+
+[NOTE]
+The configuration in `site-local.yml` uses https://docs.antora.org/antora/1.1/playbook/author-mode/[Antora's Author Mode] to render whatever version of the documents is in your working trees, instead of using a Git tag or branch as a reference.
+
+== Modify some document
+
+== Add a document to the site
+
+* Import the template repo
+* Add the new repositories to section <<repo-list>> in this `README` file.
+
+== Generate PDF files for the documents
+
+== UI development
