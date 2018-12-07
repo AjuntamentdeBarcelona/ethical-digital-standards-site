@@ -1,21 +1,42 @@
-= Ethical Digital Standards
+= Ethical Digital Standards Site
 :toc: macro
+:experimental:
 :_license: Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)
+:hide-uri-scheme:
 
-This is the main source repository for the site https://www.barcelona.cat/digitalstandards/.
+//Project URIs:
+:uri-public-website: https://www.barcelona.cat/digitalstandards
+:uri-promoter: https://github.com/AjuntamentdeBarcelona
+:uri-project-site: https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-site
+:uri-project-ui: https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-ui
+:uri-project-doc-template: https://github.com/gmarpons/eds-new-document-template
 
-The site contains a number of documents defining open source Policy Toolkit for cities to develop digital policies that put citizens at the center and make Governments more open, transparent, and collaborative. 
+// External URIs:
+:uri-antora: https://antora.org
+:uri-antora-docs-root: https://docs.antora.org/antora
+:uri-weasyprint: https://weasyprint.org/
+:uri-weasyprint-docs: https://weasyprint.readthedocs.io/
+:uri-asciidoc: https://asciidoctor.org/docs/what-is-asciidoc
 
-The site is generated with the static site generator https://antora.org[*Antora*].
-Antora takes a set of documentation https://docs.antora.org/antora/1.1/component-structure/[_components_] written in https://asciidoctor.org/docs/what-is-asciidoc[AsciiDoc] and combines them to generate the site.
-This composition is defined in the so-called https://docs.antora.org/antora/1.1/playbook/[Antora's _playbook_ file], named link:./site.yml[`site.yml`] in this repository.
-It provides Antora with the site URL, list of documentation components and their locations, site UI location, global AsciiDoc attributes, and some other configuration.
+This is the main source repository of the {uri-public-website}[Barcelona Ethical Digital Standards] initiative by the {uri-promoter}[Barcelona City Hall].
+This repo provides the means to generate the website of the initiative.
+The resultant site can be found at {uri-public-website}.
+
+The site contains a number of documents defining an open source Policy Toolkit for cities to develop digital policies that put citizens at the center and make Governments more open, transparent, and collaborative. 
+
+The site is generated with the static site generator {uri-antora}[*Antora*].
+Antora takes a set of documentation {uri-antora-docs-root}/component-structure/[_components_] written in {uri-asciidoc}[AsciiDoc] and stored in a number of Git repositores, and combines them in a unified website.
+
+In Antora the site's user interface (UI) and theme is maintained separately (in a different repository) from the content.
+All the important repositories for our site are listed in section <<repo-list>>.
 
 toc::[]
 
 == Forking and contributing
 
-The site generated from this repository and the documents it contains can be forked, adapted, and reused under the conditions of the {_license} license.
+The site generated from this repository and the documents it contains can be forked, adapted, and reused.
+The documents and the landing page are distributed under the conditions of the {_license} license.
+The code for the UI has a Mozilla Public License 2.0 (MPL-2.0).
 
 We--the maintainers of this project and the City of Barcelona--value your input, enjoy feedback and welcome improvements to our free software projects and documentation.
 For more details see the link:./CONTRIBUTING.adoc[CONTRIBUTING] file at the root of this repository.
@@ -25,14 +46,15 @@ For more details see the link:./CONTRIBUTING.adoc[CONTRIBUTING] file at the root
 
 A number of Git repositories are involved in the generation of the site:
 
-* This repository. It contains:
-** The playbook file: `site.yml`.
-** The landing page for the site. There is an Antora component for each language (CA, EN, ES) in directories `landing-page-{lang}`.
+* This (the main) repository. It contains:
+** The so-called {uri-antora-docs-root}/playbook/[Antora's _playbook_ file]: link:./site.yml[`site.yml`].
+It contains a list of all the repositories containing documentation, the location of the UI (see below), the name and URL for the site, and other configuration.
+** The landing page for the site. There is an Antora component for each language (CA, EN, ES) in folders `landing-page-{lang}`.
 ** Configuration for deployment with Netlify.
 
 * The UI repo.
 An Antora UI is a repository containing all the presentation elements for the site (templates to generate HTML from AsciiDoc files, CSS, icons, and JavaScript snippets).
-Our UI can be found at https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-ui.
+Our UI can be found at {uri-project-ui}.
 
 * Documentation repos.
 Every repository contains a different Antora component, and every component has a document in one of the supported languages.
@@ -55,9 +77,10 @@ Every repository contains a different Antora component, and every component has 
 ** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-es
 ** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-manifesto-bcn-en
 
+[#deploy]
 == Deploy the site
 
-The site is automatically built and deployed by Netlify whenever a push is run on branch `master` of *this* repository.
+The site is automatically built and deployed by Netlify whenever a push is run on branch `master` of the present repository.
 
 [IMPORTANT]
 If you change an existing document, those changes are not automatically deployed and you need to fire a manual deploy from Netlify.
@@ -67,7 +90,9 @@ Every Pull Request in this or another repository is automatically followed (can 
 
 == Test the site running Antora locally
 
-In the simplest case, to build the site locally you only need to https://docs.antora.org/antora/1.1/install/install-antora/[install Antora] and clone this repository.
+You will need this for developing and debugging.
+
+In the simplest case, to build the site locally you only need to {uri-antora-docs-root}/install/install-antora/[install Antora] and clone this repository.
 From the root of the repo, run:
 
 [source, shell]
@@ -78,28 +103,189 @@ antora --stacktrace --pull --html-url-extension-style=indexify site.yml
 This is the same command that Netlify runs during deploy.
 
 Antora, following the playbook in `site.yml`, will clone all the repositories containing documentation, and also download a file called `ui-bundle.zip` containing the UI.
-The static site is generated under directory `build/site/digitalstandards/` and can be browsed locally.
+The static site is generated under folder `build/site/digitalstandards/` and can be browsed locally.
 
 [NOTE]
 TODO: either explain broken links and redirection workaround or fix them.
 
 === Generate the site from locally cloned document repositories
 
-If instead of using content in online repositories you want to generate the site from locally cloned document repositories, you need to populate the `workspace` directory.
+If instead of using content in online repositories you want to generate the site from locally cloned document repositories, you need to populate the `workspace` folder.
 
 Change to `workspace` and clone there all the repositories in section <<repo-list>>.
 Then run the same command above but using file `site-local.yml` instead of `site.yml`.
 
 [NOTE]
-The configuration in `site-local.yml` uses https://docs.antora.org/antora/1.1/playbook/author-mode/[Antora's Author Mode] to render whatever version of the documents is in your working trees, instead of using a Git tag or branch as a reference.
+The configuration in `site-local.yml` uses {uri-antora-docs-root}/1.1/playbook/author-mode/[Antora's Author Mode] to render whatever version of the documents is in your working trees, instead of using a Git tag or branch as a reference.
 
-== Modify some document
+[#publish]
+== Edit some document and re-publish
+
+Changes to the contents of the documents need to be applied to the `master` branch of the corresponding repository.
+
+Then, the only thing you need to do to see the changes published is <<deploy, redeploy the site using Netlify>>.
+
+=== On-line edition vs. local editor
+
+NOTE: TODO.
+
+[#new-page]
+=== Create a new documentation page
+
+NOTE: TODO. See https://docs.decidim.org/docs-authoring/en/authoring/#create-page.
+
+=== Write AsciiDoc
+
+NOTE: TODO.
 
 == Add a document to the site
 
-* Import the template repo
-* Add the new repositories to section <<repo-list>> in this `README` file.
+Every (translation of a) document requires the creation of a new repository in the {uri-promoter}[City Council] space at GitHub.
+
+The steps to get the new repository are described in the following sections.
+
+:!step:
+[#import-repo-template]
+=== (Step {counter:step:1}) Import the repository template for new documents
+
+NOTE: _Importing_ a repository is a different concept from _forking_ or _creating_ an empty one.
+
+Go to the btn:[＋ ▾] drop down menu on GitHub's top bar (on the right) and select the menu:Import repository[] option.
+
+We have a {uri-project-doc-template}[repository with a template for new documents].
+
+. Input `{uri-project-doc-template}` as the repository to clone (i.e. import from).
+. Select `AjuntamentDeBarcelona` organization as the owner of the repository, if you have other options.
+If this option does not appear, you probably do not have the needed permissions.
+. Choose a name for your new repository following the examples in section <<repo-list>>.
+In particular, follow the `-bcn-{LANG}` convention, and use the same names (in English) for different translations of the same document, only changing the language suffix.
+. Press the btn:[Begin import] button.
+
+The import can take some seconds or minutes.
+
+In contrast with a GitHub fork, https://help.github.com/articles/importing-a-repository-with-github-importer/[a repository import] does not keep any link to the original repository (in this case, the template).
+
+Our new repository template defines the basic file structure to facilitate:
+
+* The <<publish, online publication of the document>>.
+* Filling up all the important metadata.
+
+// TODO:
+// If you want to understand what is in the template, its contents are described in section 
+// xref:document-template.adoc#repo-anatomy[Anatomy of a document repository].
+
+=== (Step {counter:step}) Protect the `master` branch and add explicit permissions to it
+
+Go to menu:Settings[Branches].
+Under "Branch protection rules", choose branch `master`.
+
+Select options "Protect this branch" and "Restrict who can push to this branch", and deselect all other options.
+In section "People and teams with push access" add all the GitHub users you want to have write permission to the `master` branch, for instance to accept Pull Requests.
+Add them as collaborators with "Write" permission in menu:Settings[Collaborators & teams] as well.
+
+=== (Step {counter:step}) Add a short description to the repository
+
+At the top of the menu:Code[] panel you will see the following message: "_No description, website, or topics provided._"
+Press the btn:[Edit] button on the right to change the description.
+Try to use one single sentence, at most two.
+
+[NOTE]
+TODO: more concrete guidelines here.
+
+=== (Step {counter:step}) Add topics (labels) to the repository
+
+There is also an https://help.github.com/articles/about-topics/["Add topics" option].
+Press it.
+Add at least the topic `ethical-digital-standards`.
+
+[NOTE]
+TODO: other topics?
+
+=== (Step {counter:step}) Configure other repository options
+
+Go to menu:Settings[Options] and disable "Wikis" and "Projects".
+Leave the other options in its default configuration.
+
+=== (Step {counter:step}) Set up the Antora document configuration file
+
+After importing, your document repository contains a file called `antora.yml`.
+It is a YAML file following the syntax `property: value`.
+You have to fill up the different declared properties following the instructions given in the same file.
+
+NOTE: Do not confuse this file with the site's Antora playbook, stored in the present repository.
+
+=== (Step {counter:step}) Fill-up the metadata for the document
+
+In the root of the new repo there is a file `README.adoc`.
+Fill-up the metadata there, and copy the result to `./modules/ROOT/partials/README.adoc` in the same repository.
+
+[NOTE]
+TODO: explain metadata. See https://docs.decidim.org/docs-authoring/en/authoring/#fill-up-metadata.
+
+=== (Step {counter:step}) Create the content for the document
+
+Textual content is placed in `./modules/ROOT/pages` and images in `./modules/ROOT/assets/images`.
+
+Every content we want to show as a single page (e.g. a section of your document) is going to be put in a separate `.adoc` (AsciiDoc) file.
+The template contains as example a file `./modules/ROOT/pages/rename-me.adoc` that you need to rename to something significant, e.g., `introduction.adoc`.
+
+For creating new content pages, follow instructions in section <<new-page>>.
+
+=== (Step {counter:step}) (Optional) Convert contents from another format to AsciiDoc
+
+If the contents for your document already exist in a different format, you can follow indications in https://docs.decidim.org/docs-authoring/en/administration/#conversion.
+
+=== (Step {counter:step:1}) Update navigation information
+
+The template contains a file `./modules/ROOT/nav.adoc`.
+
+It can contain references to any files or sections in the documents, as explained in {uri-antora-docs-root}/navigation/list-structures/[Antora docuementation].
+Its items and sub-items are used to present a navigation menu for the document (you can think of it as a table of contents).
+
+Add a reference for every page in `modules/ROOT/pages`
+
+.Reference from `nav.adoc`
+====
+If your file is named `modules/ROOT/pages/introduction-to-free-software.adoc`, add a line
+
+[source, asciidoc]
+----
+* xref:introduction-to-free-software.adoc[Introduction to Free Software]
+----
+
+To `nav.adoc`.
+
+The text between brackets is what will be shown in the navigation menu.
+====
+
+=== (Step {counter:step}) Set up things for PDF generation
+
+NOTE: TODO.
+
+=== (Step {counter:step}) Add the document to the site repository
+
+Here you need to change the _site_ repository, i.e., this very same repository, {uri-project-site}.
+
+To follow a proper Git workflow:
+
+. Make your own GitHub fork of the site repository.
+Work with your copy in the following numbered items.
+. Edit files `site.yml` and `site-local.yml` to add the new document under the `content` section (repeatedly for every repository if the document has been translated to different languages).
+The syntax for the `content` section is described in {uri-antora-docs-root}/playbook/configure-content-sources/[the Antora Manual].
+. Edit files `landing-page-{LANG\}/modules/ROOT/nav.adoc` and add a {uri-antora-docs-root}/page/page-id/[cross-reference (xref)] to the first page of the new document (and other pages if needed).
++
+NOTE: TODO: see if the first page is always `index.adoc`. Explain language casuistic.
+. Add the new repositories location to section <<repo-list>> in this `README` file.
+. Commit your changes and make a Pull Request (PR).
+If everything goes well you will receive an automatic comment to the PR with an URL for a preview.
+Use the preview to check that the site looks fine.
+. In case everything is OK, accept the PR and an automatic deploy (publishing) will follow.
 
 == Generate PDF files for the documents
 
-== UI development
+[NOTE]
+TODO.
+
+== Modify the UI
+
+If you need to change the UI (theme, presentation and interaction aspects) of the site, you'll find instructions in the {uri-project-ui}[site's UI project repository].
