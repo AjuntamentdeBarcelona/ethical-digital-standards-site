@@ -62,9 +62,6 @@ Every repository contains a different Antora component, and every component has 
 ** https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-ca
 ** https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-en
 ** https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-es
-** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-ca
-** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-en
-** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-es
 ** https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-en
 ** https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en
 ** https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-ca
@@ -76,6 +73,15 @@ Every repository contains a different Antora component, and every component has 
 ** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-en
 ** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-es
 ** https://github.com/AjuntamentDeBarcelona/tech-sovereignty-manifesto-bcn-en
+
+* Special documentation repos containing a general Glossary in every language:
++
+--
+NOTE: Explain glossary.
+--
+** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-ca
+** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-en
+** https://github.com/AjuntamentDeBarcelona/eds-glossary-bcn-es
 
 [#deploy]
 == Deploy the site
@@ -230,6 +236,17 @@ Every content we want to show as a single page (e.g. a section of your document)
 The template contains as example a file `./modules/ROOT/pages/rename-me.adoc` that you need to rename to something significant, e.g., `introduction.adoc`.
 
 For creating new content pages, follow instructions in section <<new-page>>.
+
+.Single page documents
+****
+Put the contents in `index.adoc`.
+
+NOTE: TODO.
+****
+
+=== (Step {counter:step}) (If lang is not EN) Take care of English-bias of the tamplate
+
+NOTE: TODO.
 
 === (Step {counter:step}) (Optional) Convert contents from another format to AsciiDoc
 
