@@ -89,14 +89,14 @@
 # Redirections for other components
 
 [[redirects]]
-  from = "/digitalstandards/agile-methodologies/"
-  to = "/digitalstandards/agile-methodologies/introduction.html"
+  from = "/digitalstandards/*/agile-methodologies/"
+  to = "/digitalstandards/:splat/agile-methodologies/introduction.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/data-management/"
-  to = "/digitalstandards/data-management/summary.html"
+  from = "/digitalstandards/*/data-management/"
+  to = "/digitalstandards/:splat/data-management/summary.html"
   status = 301
   force = false
 
@@ -107,26 +107,26 @@
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/free-soft/"
-  to = "/digitalstandards/free-soft/introduction.html"
+  from = "/digitalstandards/*/free-soft/"
+  to = "/digitalstandards/:splat/free-soft/introduction.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/glossary/"
-  to = "/digitalstandards/glossary/glossary.html"
+  from = "/digitalstandards/*/glossary/"
+  to = "/digitalstandards/:splat/glossary/glossary.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/ict-procurement/"
-  to = "/digitalstandards/ict-procurement/context.html"
+  from = "/digitalstandards/*/ict-procurement/"
+  to = "/digitalstandards/:splat/ict-procurement/context.html"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/innovative-procurement/"
-  to = "/digitalstandards/innovative-procurement/innovating.html"
+  from = "/digitalstandards/*/innovative-procurement/"
+  to = "/digitalstandards/:splat/innovative-procurement/innovating.html"
   status = 301
   force = false
 
@@ -171,14 +171,14 @@
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/agile-methodologies/*"
-  to = "/digitalstandards/agile-methodologies/0.1/:splat"
+  from = "/digitalstandards/en/agile-methodologies/*"
+  to = "/digitalstandards/en/agile-methodologies/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/data-management/*"
-  to = "/digitalstandards/data-management/0.1/:splat"
+  from = "/digitalstandards/en/data-management/*"
+  to = "/digitalstandards/en/data-management/0.1/:splat"
   status = 301
   force = false
 
@@ -195,26 +195,50 @@
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/free-soft/*"
-  to = "/digitalstandards/free-soft/0.2/:splat"
+  from = "/digitalstandards/es/digital-services/*"
+  to = "/digitalstandards/es/digital-services/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/glossary/*"
-  to = "/digitalstandards/glossary/0.1/:splat"
+  from = "/digitalstandards/en/free-soft/*"
+  to = "/digitalstandards/en/free-soft/0.2/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/ict-procurement/*"
-  to = "/digitalstandards/ict-procurement/0.1/:splat"
+  from = "/digitalstandards/ca/glossary/*"
+  to = "/digitalstandards/ca/glossary/0.1/:splat"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/digitalstandards/innovative-procurement/*"
-  to = "/digitalstandards/innovative-procurement/0.1/:splat"
+  from = "/digitalstandards/en/glossary/*"
+  to = "/digitalstandards/en/glossary/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/es/glossary/*"
+  to = "/digitalstandards/es/glossary/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/ca/ict-procurement/*"
+  to = "/digitalstandards/ca/ict-procurement/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/en/ict-procurement/*"
+  to = "/digitalstandards/en/ict-procurement/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/en/innovative-procurement/*"
+  to = "/digitalstandards/en/innovative-procurement/0.1/:splat"
   status = 301
   force = false
 
@@ -245,5 +269,11 @@
 [[redirects]]
   from = "/digitalstandards/en/tech-sovereignty/*"
   to = "/digitalstandards/en/tech-sovereignty/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/es/tech-sovereignty/*"
+  to = "/digitalstandards/es/tech-sovereignty/0.1/:splat"
   status = 301
   force = false
