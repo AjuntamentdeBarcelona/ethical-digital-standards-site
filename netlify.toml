@@ -169,6 +169,12 @@
   to = "/digitalstandards/es/init/0.1/:splat"
   status = 301
   force = false
+  
+[[redirects]]
+  from = "/digitalstandards/ca/agile-methodologies/*"
+  to = "/digitalstandards/ca/agile-methodologies/0.1/:splat"
+  status = 301
+  force = false
 
 [[redirects]]
   from = "/digitalstandards/en/agile-methodologies/*"
@@ -237,6 +243,12 @@
   force = false
 
 [[redirects]]
+  from = "/digitalstandards/ca/innovative-procurement/*"
+  to = "/digitalstandards/ca/innovative-procurement/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/digitalstandards/en/innovative-procurement/*"
   to = "/digitalstandards/en/innovative-procurement/0.1/:splat"
   status = 301
@@ -257,6 +269,12 @@
 [[redirects]]
   from = "/digitalstandards/en/tech-practices/*"
   to = "/digitalstandards/en/tech-practices/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/es/tech-practices/*"
+  to = "/digitalstandards/es/tech-practices/0.1/:splat"
   status = 301
   force = false
 
