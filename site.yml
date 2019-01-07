@@ -15,6 +15,8 @@ content:
   - url: .
     branches: [HEAD]
     start_path: landing-page-es
+  - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-ca.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-ca.git
@@ -37,11 +39,15 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/innovative-procurement-bcn-ca.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/innovative-procurement-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-ca.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-es.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-sovereignty-guide-bcn-ca.git
     branches: [master]
