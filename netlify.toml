@@ -1,15 +1,15 @@
 [build]
   base = "netlify/"
   publish = "build/site/"
-  command = "node_modules/.bin/antora --pull ../site.yml"
+  command = "node_modules/.bin/antora --fetch ../site.yml"
 
 [build.environment]
-  NODE_VERSION = "8"
+  NODE_VERSION = "10"
   BUILD_ONLY = "true"
   ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 
 [context.deploy-preview]
-  command = "node_modules/.bin/antora --pull ../site.yml --url $DEPLOY_PRIME_URL"
+  command = "node_modules/.bin/antora --fetch ../site.yml --url $DEPLOY_PRIME_URL"
 
 
 # Redirections for component 'init'
