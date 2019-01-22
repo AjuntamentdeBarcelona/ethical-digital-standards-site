@@ -64,7 +64,7 @@ asciidoc:
     idseparator: '-'
 ui:
   bundle:
-    url: https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-ui/releases/download/v5/ui-bundle.zip
+    url: https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-ui/releases/download/v6/ui-bundle.zip
     snapshot: false
 output:
   dir: ./build/site/digitalstandards
