@@ -5,4 +5,4 @@
 * xref:ca/agile-methodologies:ROOT:introduction.adoc[Metodologies Agile]
 * xref:ca/ict-procurement:ROOT:context.adoc[Compra pública TIC]
 * xref:ca/innovative-procurement:ROOT:innovating.adoc[Compra Pública Innovadora]
-* xref:en/data-management:ROOT:summary.adoc[Ethical Data Management]
+* xref:en/data-management:ROOT:summary.adoc[Gov. Measure Ethical Data Management]
