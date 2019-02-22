@@ -244,7 +244,7 @@ Put the contents in `index.adoc`.
 NOTE: TODO.
 ****
 
-=== (Step {counter:step}) (If lang is not EN) Take care of English-bias of the tamplate
+=== (Step {counter:step}) (If lang is not EN) Take care of English-bias of the template
 
 NOTE: TODO.
 
