@@ -33,6 +33,8 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-ca.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-ca.git
