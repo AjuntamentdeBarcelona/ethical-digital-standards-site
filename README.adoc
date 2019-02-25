@@ -287,6 +287,7 @@ To follow a proper Git workflow:
 
 . Make your own GitHub fork of the site repository.
 Work with your copy in the following numbered items.
+(Another possibility is to create a temporary branch in the main repository).
 . Edit files `site.yml` and `site-local.yml` to add the new document under the `content` section (repeatedly for every repository if the document has been translated to different languages).
 The syntax for the `content` section is described in {uri-antora-docs-root}/playbook/configure-content-sources/[the Antora Manual].
 . Edit files `landing-page-{LANG\}/modules/ROOT/nav.adoc` and add a {uri-antora-docs-root}/2.0/page/page-id/[cross-reference (xref)] to the first page of the new document (and other pages if needed).
