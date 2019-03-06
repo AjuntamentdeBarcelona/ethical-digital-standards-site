@@ -49,6 +49,8 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/innovative-procurement-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/innovative-procurement-bcn-es.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-ca.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/tech-practices-code-bcn-en.git
