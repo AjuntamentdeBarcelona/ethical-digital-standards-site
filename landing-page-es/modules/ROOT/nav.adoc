@@ -2,7 +2,7 @@
 * xref:es/tech-practices:ROOT:aim-and-scope.adoc[Código de prácticas tecnológicas]
 * xref:es/tech-sovereignty:ROOT:introduction.adoc[Soberanía tecnológica]
 * xref:en/free-soft:ROOT:introduction.adoc[Free Software Management]
-* xref:en/agile-methodologies:ROOT:introduction.adoc[Agile Methodologies]
+* xref:es/agile-methodologies:ROOT:introduction.adoc[Metodologías Agile]
 * xref:es/ict-procurement:ROOT:context.adoc[Compra pública TIC]
 * xref:es/innovative-procurement:ROOT:innovating.adoc[Compra Pública Innovadora]
 * xref:es/data-management:ROOT:summary.adoc[Medida Gob. Gestión Ética de los Datos]
