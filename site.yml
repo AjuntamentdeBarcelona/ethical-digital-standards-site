@@ -19,6 +19,8 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-en.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/agile-methodologies-bcn-es.git
+    branches: [master]
   - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-ca.git
     branches: [master]
   - url: https://github.com/AjuntamentdeBarcelona/digital-service-standards-bcn-en.git
