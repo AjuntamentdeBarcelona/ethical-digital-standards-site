@@ -1,7 +1,7 @@
 * xref:ca/digital-services:ROOT:index.adoc[Estàndards de serveis digitals]
 * xref:ca/tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques tecnològiques]
 * xref:ca/tech-sovereignty:ROOT:introduction.adoc[Sobirania tecnològica]
-* xref:en/free-soft:ROOT:introduction.adoc[Free Software Management]
+* xref:ca/free-soft:ROOT:introduction.adoc[Gestió de Programari Lliure]
 * xref:ca/agile-methodologies:ROOT:introduction.adoc[Metodologies Agile]
 * xref:ca/ict-procurement:ROOT:context.adoc[Compra pública TIC]
 * xref:ca/innovative-procurement:ROOT:innovating.adoc[Compra Pública Innovadora]
