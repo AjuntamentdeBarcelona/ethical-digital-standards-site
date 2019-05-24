@@ -27,25 +27,11 @@
 #   status = 301
 #   force = false
 
-# [[redirects]]
-#   from = "/digitalstandards/"
-#   to = "/digitalstandards/en/init/index.html?annotate=:annotate"
-#   query = { annotate = ":annotate" }
-#   status = 301
-#   force = false
-
 [[redirects]]
   from = "/digitalstandards/"
   to = "/digitalstandards/en/init/index.html"
   status = 301
   force = false
-
-# [[redirects]]
-#   from = "/digitalstandards/ca/"
-#   to = "/digitalstandards/ca/init/index.html?annotate=:annotate"
-#   query = { annotate = ":annotate" }
-#   status = 301
-#   force = false
 
 [[redirects]]
   from = "/digitalstandards/ca/"
@@ -53,25 +39,11 @@
   status = 301
   force = false
 
-# [[redirects]]
-#   from = "/digitalstandards/en/"
-#   to = "/digitalstandards/en/init/index.html?annotate=:annotate"
-#   query = { annotate = ":annotate" }
-#   status = 301
-#   force = false
-
 [[redirects]]
   from = "/digitalstandards/en/"
   to = "/digitalstandards/en/init/index.html"
   status = 301
   force = false
-
-# [[redirects]]
-#   from = "/digitalstandards/es/"
-#   to = "/digitalstandards/es/init/index.html?annotate=:annotate"
-#   query = { annotate = ":annotate" }
-#   status = 301
-#   force = false
 
 [[redirects]]
   from = "/digitalstandards/es/"
@@ -145,13 +117,6 @@
 
 # Redirections to latest version of each component
 
-# [[redirects]]
-#   from = "/digitalstandards/*/init/index.html"
-#   to = "/digitalstandards/:splat/init/0.1/index.html?annotate=:annotate"
-#   query = { annotate = ":annotate" }
-#   status = 301
-#   force = false
-
 [[redirects]]
   from = "/digitalstandards/ca/init/*"
   to = "/digitalstandards/ca/init/0.1/:splat"
@@ -183,8 +148,26 @@
   force = false
 
 [[redirects]]
+  from = "/digitalstandards/es/agile-methodologies/*"
+  to = "/digitalstandards/es/agile-methodologies/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/ca/data-management/*"
+  to = "/digitalstandards/ca/data-management/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/digitalstandards/en/data-management/*"
   to = "/digitalstandards/en/data-management/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/es/data-management/*"
+  to = "/digitalstandards/es/data-management/0.1/:splat"
   status = 301
   force = false
 
@@ -207,8 +190,20 @@
   force = false
 
 [[redirects]]
+  from = "/digitalstandards/ca/free-soft/*"
+  to = "/digitalstandards/ca/free-soft/0.2/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/digitalstandards/en/free-soft/*"
   to = "/digitalstandards/en/free-soft/0.2/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/es/free-soft/*"
+  to = "/digitalstandards/es/free-soft/0.2/:splat"
   status = 301
   force = false
 
@@ -243,6 +238,12 @@
   force = false
 
 [[redirects]]
+  from = "/digitalstandards/es/ict-procurement/*"
+  to = "/digitalstandards/es/ict-procurement/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/digitalstandards/ca/innovative-procurement/*"
   to = "/digitalstandards/ca/innovative-procurement/0.1/:splat"
   status = 301
@@ -251,6 +252,12 @@
 [[redirects]]
   from = "/digitalstandards/en/innovative-procurement/*"
   to = "/digitalstandards/en/innovative-procurement/0.1/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/digitalstandards/es/innovative-procurement/*"
+  to = "/digitalstandards/es/innovative-procurement/0.1/:splat"
   status = 301
   force = false
 
