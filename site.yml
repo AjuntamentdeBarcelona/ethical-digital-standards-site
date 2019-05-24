@@ -2,7 +2,7 @@ runtime:
   cache_dir: ./.cache/antora
 site:
   title: Ethical Digital Standards
-  url: ethical-digital-standards-bcn.netlify.com
+  url: https://www.barcelona.cat/digitalstandards
   start_page: en/init:ROOT:index.adoc
 content:
   sources:
@@ -37,11 +37,13 @@ content:
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-en.git
     branches: [master]
-  - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-ca.git
-    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ethical-data-management-bcn-es.git
     branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-ca.git
+    branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-en.git
+    branches: [master]
+  - url: https://github.com/AjuntamentDeBarcelona/free-software-guidelines-bcn-es.git
     branches: [master]
   - url: https://github.com/AjuntamentDeBarcelona/ict-procurement-bcn-ca.git
     branches: [master]
