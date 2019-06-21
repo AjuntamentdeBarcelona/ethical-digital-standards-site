@@ -210,6 +210,7 @@ TODO: other topics?
 === (Step {counter:step}) Configure other repository options
 
 Go to menu:Settings[Options] and disable "Wikis" and "Projects".
+As the Javascript contained in the repo is not deployed as part of the website and only used to build the static site, you can disable the option "Security alerts" as well. 
 Leave the other options in its default configuration.
 
 === (Step {counter:step}) Set up the Antora document configuration file
